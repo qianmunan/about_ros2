@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.000096] (first_helloworld_cpp) JobQueued: {'identifier': 'first_helloworld_cpp', 'dependencies': OrderedDict()}
+[0.000412] (first_helloworld_cpp) JobStarted: {'identifier': 'first_helloworld_cpp'}
+[0.017126] (first_helloworld_cpp) JobProgress: {'identifier': 'first_helloworld_cpp', 'progress': 'cmake'}
+[0.017306] (first_helloworld_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/sophia/workspace/about_ros/code/about_ros2/first_ros/src/first_helloworld_cpp', '-DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp'], 'cwd': '/home/sophia/workspace/about_ros/code/about_ros2/first_ros/build/first_helloworld_cpp', 'env': OrderedDict([('USER', 'sophia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sophia'), ('OLDPWD', '/home/sophia/workspace/about_ros/code/about_ros2/first_ros/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/sophia/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1828'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=be88c4835bf26d3694f2e9e164d5223e'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'sophia'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'sophia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sophia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Lenovo:@/tmp/.ICE-unix/1828,unix/Lenovo:/tmp/.ICE-unix/1828'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2d4ea769_1416_4eea_9d40_e9404bd60fc5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.1170'), ('XMODIFIERS', '@im=fcitx'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/sophia/workspace/about_ros/code/about_ros2/first_ros/build/first_helloworld_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=be88c4835bf26d3694f2e9e164d5223e'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099300] (-) TimerEvent: {}
+[0.199679] (-) TimerEvent: {}
+[0.251613] (first_helloworld_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299789] (-) TimerEvent: {}
+[0.302949] (first_helloworld_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.309136] (first_helloworld_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.369571] (first_helloworld_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.376369] (first_helloworld_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.376599] (first_helloworld_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.376948] (first_helloworld_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.379545] (first_helloworld_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399915] (-) TimerEvent: {}
+[0.446812] (first_helloworld_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.453481] (first_helloworld_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.453692] (first_helloworld_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.454190] (first_helloworld_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.500106] (-) TimerEvent: {}
+[0.505604] (first_helloworld_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600327] (-) TimerEvent: {}
+[0.700875] (-) TimerEvent: {}
+[0.801123] (-) TimerEvent: {}
+[0.901375] (-) TimerEvent: {}
+[0.986786] (first_helloworld_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.001696] (-) TimerEvent: {}
+[1.102063] (-) TimerEvent: {}
+[1.202590] (-) TimerEvent: {}
+[1.287780] (first_helloworld_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.302781] (-) TimerEvent: {}
+[1.403377] (-) TimerEvent: {}
+[1.503929] (-) TimerEvent: {}
+[1.604479] (-) TimerEvent: {}
+[1.704954] (-) TimerEvent: {}
+[1.786367] (first_helloworld_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.805113] (-) TimerEvent: {}
+[1.878160] (first_helloworld_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.905287] (-) TimerEvent: {}
+[1.915227] (first_helloworld_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.005524] (-) TimerEvent: {}
+[2.080223] (first_helloworld_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.105642] (-) TimerEvent: {}
+[2.206077] (-) TimerEvent: {}
+[2.225003] (first_helloworld_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.306230] (-) TimerEvent: {}
+[2.406799] (-) TimerEvent: {}
+[2.507345] (-) TimerEvent: {}
+[2.607684] (-) TimerEvent: {}
+[2.636949] (first_helloworld_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.663697] (first_helloworld_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.707827] (-) TimerEvent: {}
+[2.808168] (-) TimerEvent: {}
+[2.908665] (-) TimerEvent: {}
+[3.009234] (-) TimerEvent: {}
+[3.109756] (-) TimerEvent: {}
+[3.210349] (-) TimerEvent: {}
+[3.298238] (first_helloworld_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.310576] (-) TimerEvent: {}
+[3.394238] (first_helloworld_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.410708] (-) TimerEvent: {}
+[3.477256] (first_helloworld_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.510974] (-) TimerEvent: {}
+[3.611296] (-) TimerEvent: {}
+[3.630314] (first_helloworld_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.711452] (-) TimerEvent: {}
+[3.811857] (-) TimerEvent: {}
+[3.859877] (first_helloworld_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.860590] (first_helloworld_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.912083] (-) TimerEvent: {}
+[4.012594] (-) TimerEvent: {}
+[4.064453] (first_helloworld_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.065752] (first_helloworld_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.112800] (-) TimerEvent: {}
+[4.213358] (-) TimerEvent: {}
+[4.313721] (-) TimerEvent: {}
+[4.413991] (-) TimerEvent: {}
+[4.429948] (first_helloworld_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.514091] (-) TimerEvent: {}
+[4.614446] (-) TimerEvent: {}
+[4.654418] (first_helloworld_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.655052] (first_helloworld_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/src/first_helloworld_cpp/include>\n'}
+[4.655362] (first_helloworld_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.658045] (first_helloworld_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.662410] (first_helloworld_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.662778] (first_helloworld_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.664405] (first_helloworld_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.669376] (first_helloworld_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.706899] (first_helloworld_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[4.708697] (first_helloworld_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/build/first_helloworld_cpp\n'}
+[4.714546] (-) TimerEvent: {}
+[4.718500] (first_helloworld_cpp) CommandEnded: {'returncode': 0}
+[4.719269] (first_helloworld_cpp) JobProgress: {'identifier': 'first_helloworld_cpp', 'progress': 'build'}
+[4.720627] (first_helloworld_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sophia/workspace/about_ros/code/about_ros2/first_ros/build/first_helloworld_cpp', '--', '-j8', '-l8'], 'cwd': '/home/sophia/workspace/about_ros/code/about_ros2/first_ros/build/first_helloworld_cpp', 'env': OrderedDict([('USER', 'sophia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sophia'), ('OLDPWD', '/home/sophia/workspace/about_ros/code/about_ros2/first_ros/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/sophia/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1828'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=be88c4835bf26d3694f2e9e164d5223e'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'sophia'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'sophia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sophia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Lenovo:@/tmp/.ICE-unix/1828,unix/Lenovo:/tmp/.ICE-unix/1828'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2d4ea769_1416_4eea_9d40_e9404bd60fc5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.1170'), ('XMODIFIERS', '@im=fcitx'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/sophia/workspace/about_ros/code/about_ros2/first_ros/build/first_helloworld_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=be88c4835bf26d3694f2e9e164d5223e'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.772549] (first_helloworld_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/helloworld.dir/src/helloworld.cpp.o\x1b[0m\n'}
+[4.814757] (-) TimerEvent: {}
+[4.915281] (-) TimerEvent: {}
+[5.015652] (-) TimerEvent: {}
+[5.116251] (-) TimerEvent: {}
+[5.216839] (-) TimerEvent: {}
+[5.317432] (-) TimerEvent: {}
+[5.418112] (-) TimerEvent: {}
+[5.518716] (-) TimerEvent: {}
+[5.619221] (-) TimerEvent: {}
+[5.719706] (-) TimerEvent: {}
+[5.820271] (-) TimerEvent: {}
+[5.920862] (-) TimerEvent: {}
+[6.021448] (-) TimerEvent: {}
+[6.122067] (-) TimerEvent: {}
+[6.222701] (-) TimerEvent: {}
+[6.323327] (-) TimerEvent: {}
+[6.423942] (-) TimerEvent: {}
+[6.524596] (-) TimerEvent: {}
+[6.625506] (-) TimerEvent: {}
+[6.726087] (-) TimerEvent: {}
+[6.826706] (-) TimerEvent: {}
+[6.927265] (-) TimerEvent: {}
+[7.027774] (-) TimerEvent: {}
+[7.128170] (-) TimerEvent: {}
+[7.228630] (-) TimerEvent: {}
+[7.329183] (-) TimerEvent: {}
+[7.429549] (-) TimerEvent: {}
+[7.529793] (-) TimerEvent: {}
+[7.630151] (-) TimerEvent: {}
+[7.730420] (-) TimerEvent: {}
+[7.830638] (-) TimerEvent: {}
+[7.930895] (-) TimerEvent: {}
+[8.031129] (-) TimerEvent: {}
+[8.131403] (-) TimerEvent: {}
+[8.231682] (-) TimerEvent: {}
+[8.331963] (-) TimerEvent: {}
+[8.432239] (-) TimerEvent: {}
+[8.532511] (-) TimerEvent: {}
+[8.632784] (-) TimerEvent: {}
+[8.733057] (-) TimerEvent: {}
+[8.833333] (-) TimerEvent: {}
+[8.933617] (-) TimerEvent: {}
+[9.033893] (-) TimerEvent: {}
+[9.134202] (-) TimerEvent: {}
+[9.234473] (-) TimerEvent: {}
+[9.334831] (-) TimerEvent: {}
+[9.435413] (-) TimerEvent: {}
+[9.535709] (-) TimerEvent: {}
+[9.636229] (-) TimerEvent: {}
+[9.736513] (-) TimerEvent: {}
+[9.826826] (first_helloworld_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable helloworld\x1b[0m\n'}
+[9.836624] (-) TimerEvent: {}
+[9.936893] (-) TimerEvent: {}
+[10.037331] (-) TimerEvent: {}
+[10.137861] (-) TimerEvent: {}
+[10.165854] (first_helloworld_cpp) StdoutLine: {'line': b'[100%] Built target helloworld\n'}
+[10.175546] (first_helloworld_cpp) CommandEnded: {'returncode': 0}
+[10.195426] (first_helloworld_cpp) JobProgress: {'identifier': 'first_helloworld_cpp', 'progress': 'install'}
+[10.202465] (first_helloworld_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sophia/workspace/about_ros/code/about_ros2/first_ros/build/first_helloworld_cpp'], 'cwd': '/home/sophia/workspace/about_ros/code/about_ros2/first_ros/build/first_helloworld_cpp', 'env': OrderedDict([('USER', 'sophia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sophia'), ('OLDPWD', '/home/sophia/workspace/about_ros/code/about_ros2/first_ros/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/sophia/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1828'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=be88c4835bf26d3694f2e9e164d5223e'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'sophia'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'sophia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sophia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Lenovo:@/tmp/.ICE-unix/1828,unix/Lenovo:/tmp/.ICE-unix/1828'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2d4ea769_1416_4eea_9d40_e9404bd60fc5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.1170'), ('XMODIFIERS', '@im=fcitx'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/sophia/workspace/about_ros/code/about_ros2/first_ros/build/first_helloworld_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=be88c4835bf26d3694f2e9e164d5223e'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.209260] (first_helloworld_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.228047] (first_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/lib/first_helloworld_cpp/helloworld\n'}
+[10.228680] (first_helloworld_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/lib/first_helloworld_cpp/helloworld" to ""\n'}
+[10.228912] (first_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/share/ament_index/resource_index/package_run_dependencies/first_helloworld_cpp\n'}
+[10.229076] (first_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/share/ament_index/resource_index/parent_prefix_path/first_helloworld_cpp\n'}
+[10.229259] (first_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/share/first_helloworld_cpp/environment/ament_prefix_path.sh\n'}
+[10.229416] (first_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/share/first_helloworld_cpp/environment/ament_prefix_path.dsv\n'}
+[10.229565] (first_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/share/first_helloworld_cpp/environment/path.sh\n'}
+[10.229682] (first_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/share/first_helloworld_cpp/environment/path.dsv\n'}
+[10.229784] (first_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/share/first_helloworld_cpp/local_setup.bash\n'}
+[10.229967] (first_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/share/first_helloworld_cpp/local_setup.sh\n'}
+[10.230148] (first_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/share/first_helloworld_cpp/local_setup.zsh\n'}
+[10.230465] (first_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/share/first_helloworld_cpp/local_setup.dsv\n'}
+[10.230653] (first_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/share/first_helloworld_cpp/package.dsv\n'}
+[10.230861] (first_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/share/ament_index/resource_index/packages/first_helloworld_cpp\n'}
+[10.231053] (first_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/share/first_helloworld_cpp/cmake/first_helloworld_cppConfig.cmake\n'}
+[10.231253] (first_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/share/first_helloworld_cpp/cmake/first_helloworld_cppConfig-version.cmake\n'}
+[10.231359] (first_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp/share/first_helloworld_cpp/package.xml\n'}
+[10.233250] (first_helloworld_cpp) CommandEnded: {'returncode': 0}
+[10.237939] (-) TimerEvent: {}
+[10.338226] (-) TimerEvent: {}
+[10.438821] (-) TimerEvent: {}
+[10.539393] (-) TimerEvent: {}
+[10.549200] (first_helloworld_cpp) JobEnded: {'identifier': 'first_helloworld_cpp', 'rc': 0}
+[10.550010] (-) EventReactorShutdown: {}
