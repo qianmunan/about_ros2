@@ -1,9 +1,9 @@
 # about_ros2
 这是关于ROS2 humble 的一些学习记录
 ## 安装 🥰
-::: danger
-请注意：虽然安装比较简单，但是安装过程比较耗时，需要耐心等待。
-:::
+
+<font color="red">请注意：虽然安装比较简单，但是安装过程比较耗时，需要耐心等待。</font>
+
 
 ### 设置语言环境
 请先检查本地语言环境是否支持UTF-8编码，可调用如下指令检查并设置UTF-8编码：
@@ -35,9 +35,9 @@ sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 export LANG=en_US.UTF-8
 ```
 
-::: danger
-注意：语言环境可以不同，但必须支持UTF-8编码。
-:::
+
+<font color="green">注意：语言环境可以不同，但必须支持UTF-8编码。</font>
+
 
 ### 启动Ubuntu universe存储库
 **图形化操作:**
@@ -105,19 +105,19 @@ sudo apt install terminator
 运行结果示例如下：
 
 
-::: danger 注意
-如果想要让小乌龟动起来，请将光标放在第二条命令所在的终端下，进行方向的键入
-:::
+
+<font color="red">如果想要让小乌龟动起来，请将光标放在第二条命令所在的终端下，进行方向的键入</font>
+
 ## 第一个项目 🤔
 ### 创建功能包
-终端下，进入ws00_helloworld/src目录，使用如下指令创建一个C++功能包：
+终端下，进入`first_helloworld/src`目录，使用如下指令创建一个C++功能包：
 ```bash
 ros2 pkg create pkg01_helloworld_cpp --build-type ament_cmake --dependencies rclcpp --node-name helloworld
 ```
-执行完毕，在src目录下将生成一个名为pkg01_helloworld_cpp的目录，且目录中已经默认生成了一些子级文件与文件夹。
+执行完毕，在src目录下将生成一个名为`pkg01_helloworld_cpp`的目录，且目录中已经默认生成了一些子级文件与文件夹。
 
 ### 编辑源文件
-进入pkg01_helloworld_cpp/src目录，该目录下有一helloworld.cpp文件，修改文件内容如下：
+进入`pkg01_helloworld_cpp/src`目录，该目录下有一`helloworld.cpp`文件，修改文件内容如下：
 ```cpp
 #include "rclcpp/rclcpp.hpp"
 
@@ -245,10 +245,10 @@ mkdir -p first_helloworld/src #创建工作空间以及子级目录 src，工作
 cd first_helloworld #进入工作空间
 colcon build #编译
 ```
-上述指令执行完毕，将创建first_helloworld目录，且该目录下包含build、install、log、src共四个子级目录。
+上述指令执行完毕，将创建`first_helloworld`目录，且该目录下包含build、install、log、src共四个子级目录。
 
 ### 创建功能包
-终端下，进入first_helloworld/src目录，使用如下指令创建一个C++功能包：
+终端下，进入`first_helloworld/src`目录，使用如下指令创建一个C++功能包：
 ```bash
 ros2 pkg create pkg01_helloworld_cpp --build-type ament_cmake --dependencies rclcpp --node-name helloworld
 ```
