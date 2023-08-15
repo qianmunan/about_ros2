@@ -1,0 +1,1 @@
+Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp': /usr/bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/src/topic_test_cpp -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp

@@ -1,0 +1,4 @@
+Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo': /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo -- -j8 -l8
+Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo' returned '0': /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo -- -j8 -l8
+Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo': /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo
+Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo' returned '0': /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo

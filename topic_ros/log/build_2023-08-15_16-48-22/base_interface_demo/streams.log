@@ -1,0 +1,48 @@
+[0.041s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/src/base_interface_demo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo
+[0.372s] -- The C compiler identification is GNU 11.4.0
+[0.480s] -- The CXX compiler identification is GNU 11.4.0
+[0.486s] -- Detecting C compiler ABI info
+[0.585s] -- Detecting C compiler ABI info - done
+[0.592s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.593s] -- Detecting C compile features
+[0.593s] -- Detecting C compile features - done
+[0.596s] -- Detecting CXX compiler ABI info
+[0.668s] -- Detecting CXX compiler ABI info - done
+[0.676s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.676s] -- Detecting CXX compile features
+[0.676s] -- Detecting CXX compile features - done
+[0.678s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.001s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.114s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.211s] -- Added test 'lint_cmake' to check CMake code style
+[1.212s] -- Added test 'xmllint' to check XML markup files
+[1.213s] -- Configuring done
+[1.215s] -- Generating done
+[1.216s] [33mCMake Warning:
+[1.216s]   Manually-specified variables were not used by the project:
+[1.216s] 
+[1.216s]     CMAKE_EXPORT_COMPILE_COMMANDS
+[1.216s] 
+[1.216s] [0m
+[1.216s] -- Build files have been written to: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo
+[1.221s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/src/base_interface_demo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo
+[1.222s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo -- -j8 -l8
+[1.253s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo -- -j8 -l8
+[1.271s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo
+[1.277s] -- Install configuration: ""
+[1.277s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/ament_index/resource_index/package_run_dependencies/base_interface_demo
+[1.277s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/ament_index/resource_index/parent_prefix_path/base_interface_demo
+[1.277s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/environment/ament_prefix_path.sh
+[1.278s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/environment/ament_prefix_path.dsv
+[1.278s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/environment/path.sh
+[1.278s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/environment/path.dsv
+[1.278s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/local_setup.bash
+[1.278s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/local_setup.sh
+[1.278s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/local_setup.zsh
+[1.278s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/local_setup.dsv
+[1.278s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/package.dsv
+[1.278s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/ament_index/resource_index/packages/base_interface_demo
+[1.279s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demoConfig.cmake
+[1.279s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demoConfig-version.cmake
+[1.279s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/package.xml
+[1.283s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo

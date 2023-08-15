@@ -1,0 +1,4 @@
+Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp': /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp -- -j8 -l8
+Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp' returned '0': /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp -- -j8 -l8
+Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp': /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp
+Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp' returned '0': /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp

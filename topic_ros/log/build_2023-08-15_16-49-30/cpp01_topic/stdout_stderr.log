@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[100%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[100%] Built target demo01_talker_str
+-- Install configuration: ""
+-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+-- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""
+-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/package.dsv
+-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/package.xml

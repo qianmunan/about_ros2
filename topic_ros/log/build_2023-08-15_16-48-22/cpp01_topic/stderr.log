@@ -1,0 +1,8 @@
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/src/cpp01_topic/src/demo01_talker_str.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/src/cpp01_topic/src/demo01_talker_str.cpp:11:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kshudown[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kshutdown[m[K’?
+   11 |     rclcpp::[01;31m[Kshudown[m[K();
+      |             [01;31m[K^~~~~~~[m[K
+      |             [32m[Kshutdown[m[K
+gmake[2]: *** [CMakeFiles/demo01_talker_str.dir/build.make:76: CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_talker_str.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
