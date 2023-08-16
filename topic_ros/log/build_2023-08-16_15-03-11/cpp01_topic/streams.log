@@ -1,0 +1,38 @@
+[0.014s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/cpp01_topic -- -j8 -l8
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target demo04_listener_stu[0m
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target demo02_listener_str[0m
+[0.066s] [ 25%] Built target demo03_talker_stu
+[0.067s] [ 50%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[0.067s] [ 62%] Built target demo02_listener_str
+[0.068s] [ 87%] Built target demo01_talker_str
+[2.771s] [100%] [32m[1mLinking CXX executable demo04_listener_stu[0m
+[2.929s] [100%] Built target demo04_listener_stu
+[2.939s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/cpp01_topic -- -j8 -l8
+[2.977s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/cpp01_topic
+[2.982s] -- Install configuration: ""
+[3.007s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[3.009s] -- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""
+[3.040s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str
+[3.059s] -- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str" to ""
+[3.059s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu
+[3.061s] -- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu" to ""
+[3.062s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu
+[3.063s] -- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu" to ""
+[3.064s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[3.064s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[3.064s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[3.065s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[3.065s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[3.065s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[3.065s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[3.066s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[3.066s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[3.066s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[3.066s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/package.dsv
+[3.067s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[3.067s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[3.067s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[3.067s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic/share/cpp01_topic/package.xml
+[3.072s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/cpp01_topic

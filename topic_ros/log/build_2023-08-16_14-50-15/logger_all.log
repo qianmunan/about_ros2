@@ -1,0 +1,181 @@
+[0.236s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'base_interface_demo']
+[0.236s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['base_interface_demo'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa911351ea0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa911453850>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa911453850>>)
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.264s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interface_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interface_demo) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interface_demo) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interface_demo) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interface_demo) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interface_demo) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interface_demo) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interface_demo) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interface_demo) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_interface_demo' with type 'ros.ament_cmake' and name 'base_interface_demo'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp01_topic' with type 'ros.ament_cmake' and name 'cpp01_topic'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test_cpp) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test_cpp) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test_cpp) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test_cpp) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test_cpp) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test_cpp) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test_cpp) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_test_cpp) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/topic_test_cpp' with type 'ros.ament_cmake' and name 'topic_test_cpp'
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.303s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'topic_test_cpp' in 'src/topic_test_cpp'
+[0.303s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cpp01_topic' in 'src/cpp01_topic'
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.306s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install
+[0.306s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/sophia/workspace/about_ros/code/about_ros2/first_ros/install
+[0.308s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.357s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'base_interface_demo' is in: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding base_interface_demo
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'base_interface_demo' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'base_interface_demo' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'base_interface_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'base_interface_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'base_interface_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'base_interface_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'base_interface_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'base_interface_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'base_interface_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'base_interface_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo', 'merge_install': False, 'path': '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/src/base_interface_demo', 'symlink_install': False, 'test_result_base': None}
+[0.359s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.361s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.361s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/src/base_interface_demo' with build type 'ament_cmake'
+[0.361s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/src/base_interface_demo'
+[0.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo -- -j8 -l8
+[10.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo -- -j8 -l8
+[10.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo
+[10.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interface_demo)
+[10.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/base_interface_demo
+[10.485s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo' for CMake module files
+[10.487s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo' for CMake config files
+[10.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interface_demo', 'cmake_prefix_path')
+[10.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/hook/cmake_prefix_path.ps1'
+[10.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/hook/cmake_prefix_path.dsv'
+[10.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/hook/cmake_prefix_path.sh'
+[10.538s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/lib'
+[10.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interface_demo', 'ld_library_path_lib')
+[10.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/hook/ld_library_path_lib.ps1'
+[10.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/hook/ld_library_path_lib.dsv'
+[10.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/hook/ld_library_path_lib.sh'
+[10.547s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/bin'
+[10.547s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/lib/pkgconfig/base_interface_demo.pc'
+[10.548s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/lib/python3.10/site-packages'
+[10.549s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/bin'
+[10.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/package.ps1'
+[10.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/package.dsv'
+[10.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/package.sh'
+[10.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/package.bash'
+[10.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/package.zsh'
+[10.613s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/colcon-core/packages/base_interface_demo)
+[10.828s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interface_demo)
+[10.834s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo' for CMake module files
+[10.837s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo' for CMake config files
+[10.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interface_demo', 'cmake_prefix_path')
+[10.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/hook/cmake_prefix_path.ps1'
+[10.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/hook/cmake_prefix_path.dsv'
+[10.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/hook/cmake_prefix_path.sh'
+[10.843s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/lib'
+[10.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interface_demo', 'ld_library_path_lib')
+[10.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/hook/ld_library_path_lib.ps1'
+[10.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/hook/ld_library_path_lib.dsv'
+[10.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/hook/ld_library_path_lib.sh'
+[10.847s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/bin'
+[10.848s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/lib/pkgconfig/base_interface_demo.pc'
+[10.848s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/lib/python3.10/site-packages'
+[10.848s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/bin'
+[10.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/package.ps1'
+[10.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/package.dsv'
+[10.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/package.sh'
+[10.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/package.bash'
+[10.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/base_interface_demo/package.zsh'
+[10.853s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/share/colcon-core/packages/base_interface_demo)
+[10.854s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.854s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.855s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.855s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.887s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.887s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.887s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.906s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.908s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/local_setup.ps1'
+[10.909s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/_local_setup_util_ps1.py'
+[10.911s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/setup.ps1'
+[10.913s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/local_setup.sh'
+[10.914s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/_local_setup_util_sh.py'
+[10.915s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/setup.sh'
+[10.917s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/local_setup.bash'
+[10.918s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/setup.bash'
+[10.920s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/local_setup.zsh'
+[10.921s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/setup.zsh'

@@ -1,0 +1,22 @@
+[0.023s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp -- -j8 -l8
+[0.168s] [100%] Built target helloworld
+[0.179s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp -- -j8 -l8
+[0.209s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp
+[0.215s] -- Install configuration: ""
+[0.244s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp/lib/topic_test_cpp/helloworld
+[0.244s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp/share/ament_index/resource_index/package_run_dependencies/topic_test_cpp
+[0.244s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp/share/ament_index/resource_index/parent_prefix_path/topic_test_cpp
+[0.245s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp/share/topic_test_cpp/environment/ament_prefix_path.sh
+[0.245s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp/share/topic_test_cpp/environment/ament_prefix_path.dsv
+[0.245s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp/share/topic_test_cpp/environment/path.sh
+[0.245s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp/share/topic_test_cpp/environment/path.dsv
+[0.245s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp/share/topic_test_cpp/local_setup.bash
+[0.245s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp/share/topic_test_cpp/local_setup.sh
+[0.246s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp/share/topic_test_cpp/local_setup.zsh
+[0.246s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp/share/topic_test_cpp/local_setup.dsv
+[0.246s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp/share/topic_test_cpp/package.dsv
+[0.246s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp/share/ament_index/resource_index/packages/topic_test_cpp
+[0.246s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp/share/topic_test_cpp/cmake/topic_test_cppConfig.cmake
+[0.246s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp/share/topic_test_cpp/cmake/topic_test_cppConfig-version.cmake
+[0.246s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp/share/topic_test_cpp/package.xml
+[0.248s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/topic_ros/build/topic_test_cpp
