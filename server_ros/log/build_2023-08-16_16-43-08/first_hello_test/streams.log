@@ -1,0 +1,68 @@
+[0.012s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/first_hello_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/server_ros/src/first_hello_test -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test
+[0.496s] -- The C compiler identification is GNU 11.4.0
+[0.769s] -- The CXX compiler identification is GNU 11.4.0
+[0.822s] -- Detecting C compiler ABI info
+[0.993s] -- Detecting C compiler ABI info - done
+[1.005s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.006s] -- Detecting C compile features
+[1.014s] -- Detecting C compile features - done
+[1.030s] -- Detecting CXX compiler ABI info
+[1.175s] -- Detecting CXX compiler ABI info - done
+[1.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.184s] -- Detecting CXX compile features
+[1.184s] -- Detecting CXX compile features - done
+[1.301s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.816s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.193s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[2.671s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.773s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.816s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.904s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.935s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.112s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.115s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.489s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.534s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.578s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.630s] -- Looking for pthread.h
+[3.837s] -- Looking for pthread.h - found
+[3.837s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.903s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.904s] -- Found Threads: TRUE  
+[4.140s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.381s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.382s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/src/first_hello_test/include>
+[4.382s] -- Configured cppcheck exclude dirs and/or files: 
+[4.386s] -- Added test 'lint_cmake' to check CMake code style
+[4.391s] -- Added test 'uncrustify' to check C / C++ code style
+[4.391s] -- Configured uncrustify additional arguments: 
+[4.393s] -- Added test 'xmllint' to check XML markup files
+[4.399s] -- Configuring done
+[4.420s] -- Generating done
+[4.422s] -- Build files have been written to: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/first_hello_test
+[4.432s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/first_hello_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/server_ros/src/first_hello_test -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test
+[4.434s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/first_hello_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/first_hello_test -- -j8 -l8
+[4.475s] [ 50%] [32mBuilding CXX object CMakeFiles/helloworld.dir/src/helloworld.cpp.o[0m
+[7.009s] [100%] [32m[1mLinking CXX executable helloworld[0m
+[7.109s] [100%] Built target helloworld
+[7.118s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/first_hello_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/first_hello_test -- -j8 -l8
+[7.147s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/first_hello_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/first_hello_test
+[7.153s] -- Install configuration: ""
+[7.154s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/lib/first_hello_test/helloworld
+[7.154s] -- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/lib/first_hello_test/helloworld" to ""
+[7.154s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/share/ament_index/resource_index/package_run_dependencies/first_hello_test
+[7.155s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/share/ament_index/resource_index/parent_prefix_path/first_hello_test
+[7.155s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/share/first_hello_test/environment/ament_prefix_path.sh
+[7.155s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/share/first_hello_test/environment/ament_prefix_path.dsv
+[7.155s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/share/first_hello_test/environment/path.sh
+[7.155s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/share/first_hello_test/environment/path.dsv
+[7.155s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/share/first_hello_test/local_setup.bash
+[7.155s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/share/first_hello_test/local_setup.sh
+[7.156s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/share/first_hello_test/local_setup.zsh
+[7.156s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/share/first_hello_test/local_setup.dsv
+[7.156s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/share/first_hello_test/package.dsv
+[7.156s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/share/ament_index/resource_index/packages/first_hello_test
+[7.156s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/share/first_hello_test/cmake/first_hello_testConfig.cmake
+[7.157s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/share/first_hello_test/cmake/first_hello_testConfig-version.cmake
+[7.157s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test/share/first_hello_test/package.xml
+[7.160s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/first_hello_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/first_hello_test

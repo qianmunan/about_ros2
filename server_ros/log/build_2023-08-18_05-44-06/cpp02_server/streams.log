@@ -1,0 +1,74 @@
+[0.178s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/cpp02_server': CMAKE_PREFIX_PATH=/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble /usr/bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/server_ros/src/cpp02_server -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server
+[1.277s] -- The C compiler identification is GNU 11.4.0
+[1.936s] -- The CXX compiler identification is GNU 11.4.0
+[2.066s] -- Detecting C compiler ABI info
+[2.293s] -- Detecting C compiler ABI info - done
+[2.299s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.300s] -- Detecting C compile features
+[2.333s] -- Detecting C compile features - done
+[2.380s] -- Detecting CXX compiler ABI info
+[2.630s] -- Detecting CXX compiler ABI info - done
+[2.638s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.638s] -- Detecting CXX compile features
+[2.638s] -- Detecting CXX compile features - done
+[2.762s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.224s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.555s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[3.942s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.968s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.982s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.103s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.204s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.548s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.576s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.202s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.290s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.353s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.466s] -- Looking for pthread.h
+[5.702s] -- Looking for pthread.h - found
+[5.702s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.830s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.831s] -- Found Threads: TRUE  
+[6.208s] -- Found base_interfaces_demo: 0.0.0 (/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[6.254s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.429s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.429s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/src/cpp02_server/include>
+[6.430s] -- Configured cppcheck exclude dirs and/or files: 
+[6.433s] -- Added test 'lint_cmake' to check CMake code style
+[6.439s] -- Added test 'uncrustify' to check C / C++ code style
+[6.439s] -- Configured uncrustify additional arguments: 
+[6.441s] -- Added test 'xmllint' to check XML markup files
+[6.448s] -- Configuring done
+[6.475s] -- Generating done
+[6.477s] -- Build files have been written to: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/cpp02_server
+[6.486s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/cpp02_server' returned '0': CMAKE_PREFIX_PATH=/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble /usr/bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/server_ros/src/cpp02_server -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server
+[6.488s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/cpp02_server': CMAKE_PREFIX_PATH=/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/cpp02_server -- -j8 -l8
+[6.533s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[6.533s] [ 50%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[13.488s] [ 75%] [32m[1mLinking CXX executable demo01_server[0m
+[13.553s] [100%] [32m[1mLinking CXX executable demo02_client[0m
+[14.342s] [100%] Built target demo01_server
+[14.342s] [100%] Built target demo02_client
+[14.352s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/cpp02_server' returned '0': CMAKE_PREFIX_PATH=/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/cpp02_server -- -j8 -l8
+[14.387s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/cpp02_server': CMAKE_PREFIX_PATH=/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/cpp02_server
+[14.394s] -- Install configuration: ""
+[14.394s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/lib/cpp02_server/demo01_server
+[14.395s] -- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/lib/cpp02_server/demo01_server" to ""
+[14.395s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/lib/cpp02_server/demo02_client
+[14.396s] -- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/lib/cpp02_server/demo02_client" to ""
+[14.396s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/share/ament_index/resource_index/package_run_dependencies/cpp02_server
+[14.396s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/share/ament_index/resource_index/parent_prefix_path/cpp02_server
+[14.396s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/share/cpp02_server/environment/ament_prefix_path.sh
+[14.396s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/share/cpp02_server/environment/ament_prefix_path.dsv
+[14.396s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/share/cpp02_server/environment/path.sh
+[14.397s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/share/cpp02_server/environment/path.dsv
+[14.397s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/share/cpp02_server/local_setup.bash
+[14.397s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/share/cpp02_server/local_setup.sh
+[14.397s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/share/cpp02_server/local_setup.zsh
+[14.397s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/share/cpp02_server/local_setup.dsv
+[14.397s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/share/cpp02_server/package.dsv
+[14.397s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/share/ament_index/resource_index/packages/cpp02_server
+[14.398s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/share/cpp02_server/cmake/cpp02_serverConfig.cmake
+[14.398s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/share/cpp02_server/cmake/cpp02_serverConfig-version.cmake
+[14.398s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server/share/cpp02_server/package.xml
+[14.400s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/cpp02_server' returned '0': CMAKE_PREFIX_PATH=/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/server_ros/build/cpp02_server
