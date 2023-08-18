@@ -1,0 +1,170 @@
+[0.000000] (-) TimerEvent: {}
+[0.000097] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000124] (cpp07_exercise) JobQueued: {'identifier': 'cpp07_exercise', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/base_interfaces_demo')])}
+[0.000148] (cpp07_exercise) JobStarted: {'identifier': 'cpp07_exercise'}
+[0.042698] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'cmake'}
+[0.043764] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'build'}
+[0.045090] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/cpp07_exercise', '--', '-j8', '-l8'], 'cwd': '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/cpp07_exercise', 'env': OrderedDict([('USER', 'sophia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/base_interfaces_demo/lib:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo/lib:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sophia'), ('OLDPWD', '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/venv'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/sophia/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1551'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1966'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2387'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install:/home/sophia/workspace/about_ros/code/about_ros2/param_ros/install:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'sophia'), ('JOURNAL_STREAM', '8:34146'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'sophia'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sophia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Lenovo:@/tmp/.ICE-unix/1765,unix/Lenovo:/tmp/.ICE-unix/1765'), ('INVOCATION_ID', '9971353913434a8ebdd492b3980432b3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise:/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/param_ros/install/cpp04_param:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/cpp03_action:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:932aa5b7-52e9-4485-a0c3-6cce94554619'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/cpp07_exercise'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise:/home/sophia/workspace/about_ros/code/about_ros2/param_ros/install/cpp04_param:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/cpp03_action:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble')]), 'shell': False}
+[0.098909] (-) TimerEvent: {}
+[0.175828] (cpp07_exercise) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199009] (-) TimerEvent: {}
+[0.299258] (-) TimerEvent: {}
+[0.314197] (cpp07_exercise) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.399474] (-) TimerEvent: {}
+[0.427376] (cpp07_exercise) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.431456] (cpp07_exercise) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.439577] (cpp07_exercise) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.452023] (cpp07_exercise) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.468666] (cpp07_exercise) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499565] (-) TimerEvent: {}
+[0.527199] (cpp07_exercise) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.528934] (cpp07_exercise) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.599721] (-) TimerEvent: {}
+[0.683722] (cpp07_exercise) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.699795] (-) TimerEvent: {}
+[0.800039] (-) TimerEvent: {}
+[0.842970] (cpp07_exercise) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.900244] (-) TimerEvent: {}
+[1.000771] (-) TimerEvent: {}
+[1.092221] (cpp07_exercise) StdoutLine: {'line': b'-- Found base_interfaces_demo: 0.0.0 (/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/base_interfaces_demo/share/base_interfaces_demo/cmake)\n'}
+[1.092546] (cpp07_exercise) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.100875] (-) TimerEvent: {}
+[1.139150] (cpp07_exercise) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.5 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.201017] (-) TimerEvent: {}
+[1.207357] (cpp07_exercise) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.272279] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.272520] (cpp07_exercise) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/src/cpp07_exercise/include>\n'}
+[1.272607] (cpp07_exercise) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.272756] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.273528] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.273847] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.275018] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.275107] (cpp07_exercise) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.275353] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.275987] (cpp07_exercise) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.301171] (-) TimerEvent: {}
+[1.334370] (cpp07_exercise) StdoutLine: {'line': b'-- Generating done\n'}
+[1.339694] (cpp07_exercise) StdoutLine: {'line': b'-- Build files have been written to: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/cpp07_exercise\n'}
+[1.401382] (-) TimerEvent: {}
+[1.466469] (cpp07_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer01_pub_sub\x1b[0m\n'}
+[1.501491] (-) TimerEvent: {}
+[1.504092] (cpp07_exercise) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/exer01_pub_sub.dir/src/exer01_pub_sub.cpp.o\x1b[0m\n'}
+[1.601610] (-) TimerEvent: {}
+[1.701841] (-) TimerEvent: {}
+[1.802134] (-) TimerEvent: {}
+[1.902438] (-) TimerEvent: {}
+[2.002712] (-) TimerEvent: {}
+[2.103018] (-) TimerEvent: {}
+[2.203375] (-) TimerEvent: {}
+[2.303618] (-) TimerEvent: {}
+[2.403868] (-) TimerEvent: {}
+[2.504213] (-) TimerEvent: {}
+[2.604479] (-) TimerEvent: {}
+[2.704744] (-) TimerEvent: {}
+[2.805015] (-) TimerEvent: {}
+[2.905285] (-) TimerEvent: {}
+[3.005589] (-) TimerEvent: {}
+[3.105849] (-) TimerEvent: {}
+[3.206138] (-) TimerEvent: {}
+[3.306398] (-) TimerEvent: {}
+[3.406844] (-) TimerEvent: {}
+[3.507122] (-) TimerEvent: {}
+[3.607361] (-) TimerEvent: {}
+[3.707649] (-) TimerEvent: {}
+[3.807926] (-) TimerEvent: {}
+[3.908199] (-) TimerEvent: {}
+[4.008527] (-) TimerEvent: {}
+[4.108824] (-) TimerEvent: {}
+[4.209133] (-) TimerEvent: {}
+[4.309412] (-) TimerEvent: {}
+[4.409696] (-) TimerEvent: {}
+[4.509980] (-) TimerEvent: {}
+[4.610255] (-) TimerEvent: {}
+[4.710488] (-) TimerEvent: {}
+[4.810761] (-) TimerEvent: {}
+[4.911064] (-) TimerEvent: {}
+[5.011330] (-) TimerEvent: {}
+[5.111582] (-) TimerEvent: {}
+[5.211815] (-) TimerEvent: {}
+[5.312088] (-) TimerEvent: {}
+[5.412361] (-) TimerEvent: {}
+[5.512615] (-) TimerEvent: {}
+[5.612918] (-) TimerEvent: {}
+[5.713177] (-) TimerEvent: {}
+[5.813428] (-) TimerEvent: {}
+[5.913723] (-) TimerEvent: {}
+[6.014049] (-) TimerEvent: {}
+[6.114373] (-) TimerEvent: {}
+[6.214679] (-) TimerEvent: {}
+[6.315009] (-) TimerEvent: {}
+[6.415291] (-) TimerEvent: {}
+[6.515552] (-) TimerEvent: {}
+[6.615845] (-) TimerEvent: {}
+[6.716127] (-) TimerEvent: {}
+[6.816400] (-) TimerEvent: {}
+[6.916695] (-) TimerEvent: {}
+[7.016990] (-) TimerEvent: {}
+[7.117265] (-) TimerEvent: {}
+[7.217540] (-) TimerEvent: {}
+[7.317822] (-) TimerEvent: {}
+[7.418068] (-) TimerEvent: {}
+[7.518281] (-) TimerEvent: {}
+[7.618620] (-) TimerEvent: {}
+[7.719012] (-) TimerEvent: {}
+[7.819275] (-) TimerEvent: {}
+[7.919545] (-) TimerEvent: {}
+[8.019819] (-) TimerEvent: {}
+[8.120136] (-) TimerEvent: {}
+[8.220549] (-) TimerEvent: {}
+[8.320898] (-) TimerEvent: {}
+[8.421242] (-) TimerEvent: {}
+[8.521510] (-) TimerEvent: {}
+[8.621750] (-) TimerEvent: {}
+[8.722023] (-) TimerEvent: {}
+[8.822442] (-) TimerEvent: {}
+[8.923070] (-) TimerEvent: {}
+[9.023616] (-) TimerEvent: {}
+[9.124012] (-) TimerEvent: {}
+[9.224287] (-) TimerEvent: {}
+[9.324564] (-) TimerEvent: {}
+[9.424792] (-) TimerEvent: {}
+[9.525125] (-) TimerEvent: {}
+[9.605407] (cpp07_exercise) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable exer01_pub_sub\x1b[0m\n'}
+[9.625274] (-) TimerEvent: {}
+[9.725639] (-) TimerEvent: {}
+[9.826019] (-) TimerEvent: {}
+[9.926404] (-) TimerEvent: {}
+[10.027011] (-) TimerEvent: {}
+[10.127276] (-) TimerEvent: {}
+[10.227579] (-) TimerEvent: {}
+[10.327850] (-) TimerEvent: {}
+[10.428179] (-) TimerEvent: {}
+[10.528447] (-) TimerEvent: {}
+[10.560821] (cpp07_exercise) StdoutLine: {'line': b'[100%] Built target exer01_pub_sub\n'}
+[10.571640] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[10.599237] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'install'}
+[10.607602] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/cpp07_exercise'], 'cwd': '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/cpp07_exercise', 'env': OrderedDict([('USER', 'sophia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/base_interfaces_demo/lib:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo/lib:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sophia'), ('OLDPWD', '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/venv'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/sophia/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1551'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1966'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2387'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install:/home/sophia/workspace/about_ros/code/about_ros2/param_ros/install:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'sophia'), ('JOURNAL_STREAM', '8:34146'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'sophia'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sophia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Lenovo:@/tmp/.ICE-unix/1765,unix/Lenovo:/tmp/.ICE-unix/1765'), ('INVOCATION_ID', '9971353913434a8ebdd492b3980432b3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise:/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/param_ros/install/cpp04_param:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/cpp03_action:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:932aa5b7-52e9-4485-a0c3-6cce94554619'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/cpp07_exercise'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise:/home/sophia/workspace/about_ros/code/about_ros2/param_ros/install/cpp04_param:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/cpp03_action:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble')]), 'shell': False}
+[10.616688] (cpp07_exercise) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.616979] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub\n'}
+[10.621782] (cpp07_exercise) StdoutLine: {'line': b'-- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub" to ""\n'}
+[10.622018] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/launch\n'}
+[10.622147] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py\n'}
+[10.628576] (-) TimerEvent: {}
+[10.630288] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise\n'}
+[10.630576] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise\n'}
+[10.630664] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh\n'}
+[10.630884] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv\n'}
+[10.631054] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh\n'}
+[10.631213] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv\n'}
+[10.631348] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash\n'}
+[10.631455] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh\n'}
+[10.631595] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh\n'}
+[10.631709] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv\n'}
+[10.631819] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/package.dsv\n'}
+[10.631920] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise\n'}
+[10.632019] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake\n'}
+[10.632111] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake\n'}
+[10.632204] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/package.xml\n'}
+[10.633466] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[10.686909] (cpp07_exercise) JobEnded: {'identifier': 'cpp07_exercise', 'rc': 0}
+[10.687423] (-) EventReactorShutdown: {}
