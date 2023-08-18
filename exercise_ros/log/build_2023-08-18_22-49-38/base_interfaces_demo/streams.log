@@ -1,0 +1,17 @@
+[0.014s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/base_interfaces_demo
+[0.027s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.165s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.167s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.170s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.204s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.401s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[0.401s]   Packages installing interfaces must include
+[0.401s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.401s]   package.xml
+[0.401s] Call Stack (most recent call first):
+[0.401s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.401s] 
+[0.401s] [0m
+[0.401s] -- Configuring incomplete, errors occurred!
+[0.401s] See also "/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/base_interfaces_demo/CMakeFiles/CMakeOutput.log".
+[0.405s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/base_interfaces_demo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/base_interfaces_demo
