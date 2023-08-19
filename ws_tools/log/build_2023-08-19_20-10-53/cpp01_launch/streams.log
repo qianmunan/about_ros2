@@ -1,0 +1,19 @@
+[0.021s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch -- -j8 -l8
+[0.039s] [31mCMake Error at CMakeLists.txt:1 (cake_minimum_required):
+[0.039s]   Unknown CMake command "cake_minimum_required".
+[0.039s] 
+[0.039s] [0m
+[0.039s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.039s]   No cmake_minimum_required command is present.  A line of code such as
+[0.039s] 
+[0.039s]     cmake_minimum_required(VERSION 3.22)
+[0.039s] 
+[0.040s]   should be added at the top of the file.  The version specified may be lower
+[0.040s]   if you wish to support older CMake versions for this project.  For more
+[0.040s]   information run "cmake --help-policy CMP0000".
+[0.040s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.040s] [0m
+[0.040s] -- Configuring incomplete, errors occurred!
+[0.040s] See also "/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch/CMakeFiles/CMakeOutput.log".
+[0.040s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.042s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch -- -j8 -l8

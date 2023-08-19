@@ -1,0 +1,33 @@
+[0.008s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch': /bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp01_launch -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch
+[0.224s] -- The C compiler identification is GNU 11.4.0
+[0.362s] -- The CXX compiler identification is GNU 11.4.0
+[0.370s] -- Detecting C compiler ABI info
+[0.530s] -- Detecting C compiler ABI info - done
+[0.538s] -- Check for working C compiler: /bin/cc - skipped
+[0.539s] -- Detecting C compile features
+[0.549s] -- Detecting C compile features - done
+[0.552s] -- Detecting CXX compiler ABI info
+[0.745s] -- Detecting CXX compiler ABI info - done
+[0.752s] -- Check for working CXX compiler: /bin/c++ - skipped
+[0.752s] -- Detecting CXX compile features
+[0.753s] -- Detecting CXX compile features - done
+[0.761s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.761s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.761s]   has asked CMake to find a package configuration file provided by
+[0.761s]   "ament_cmake", but CMake did not find one.
+[0.761s] 
+[0.761s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.762s]   any of the following names:
+[0.762s] 
+[0.762s]     ament_cmakeConfig.cmake
+[0.762s]     ament_cmake-config.cmake
+[0.762s] 
+[0.762s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.762s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.762s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.762s]   has been installed.
+[0.762s] 
+[0.762s] [0m
+[0.762s] -- Configuring incomplete, errors occurred!
+[0.762s] See also "/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch/CMakeFiles/CMakeOutput.log".
+[0.764s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch' returned '1': /bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp01_launch -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch
