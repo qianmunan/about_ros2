@@ -44,10 +44,32 @@ ament_target_dependencies(
     "geometry_msgs"
     )
 
+add_executable(exe04_action_server src/exe04_action_server.cpp)
+ament_target_dependencies(
+    exe04_action_server
+    "rclcpp"
+    "turtlesim"
+    "base_interfaces_demo"
+    "geometry_msgs"
+    "rclcpp_action"
+    )
+
+add_executable(exe05_action_client src/exe05_action_client.cpp)
+ament_target_dependencies(
+    exe05_action_client
+    "rclcpp"
+    "turtlesim"
+    "base_interfaces_demo"
+    "geometry_msgs"
+    "rclcpp_action"
+    )
+
 install(TARGETS 
     exer01_pub_sub
     exe02_server
     exe03_client
+    exe04_action_server
+    exe05_action_client
     DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
