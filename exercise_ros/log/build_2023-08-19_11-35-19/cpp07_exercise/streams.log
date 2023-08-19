@@ -1,0 +1,74 @@
+[0.019s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise:/home/sophia/workspace/about_ros/code/about_ros2/param_ros/install/cpp04_param:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/cpp03_action:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/cpp07_exercise -- -j8 -l8
+[0.042s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.178s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.207s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.209s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.215s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.226s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.241s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.297s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.299s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.415s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.576s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.714s] -- Found base_interfaces_demo: 0.0.0 (/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.766s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.810s] -- Found rclcpp_action: 16.0.5 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.852s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.918s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.918s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/src/cpp07_exercise/include>
+[0.918s] -- Configured cppcheck exclude dirs and/or files: 
+[0.919s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.919s] -- Added test 'lint_cmake' to check CMake code style
+[0.920s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.921s] -- Added test 'uncrustify' to check C / C++ code style
+[0.921s] -- Configured uncrustify additional arguments: 
+[0.921s] -- Added test 'xmllint' to check XML markup files
+[0.922s] -- Configuring done
+[0.952s] -- Generating done
+[0.955s] -- Build files have been written to: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/cpp07_exercise
+[0.982s] [35m[1mConsolidate compiler generated dependencies of target exe03_client[0m
+[0.982s] [35m[1mConsolidate compiler generated dependencies of target exe05_action_client[0m
+[0.983s] [35m[1mConsolidate compiler generated dependencies of target exer01_pub_sub[0m
+[0.984s] [35m[1mConsolidate compiler generated dependencies of target exe02_server[0m
+[0.985s] [35m[1mConsolidate compiler generated dependencies of target exe04_action_server[0m
+[0.996s] [  8%] [32mBuilding CXX object CMakeFiles/exe06_param.dir/src/exe06_param.cpp.o[0m
+[1.006s] [ 25%] Built target exe05_action_client
+[1.006s] [ 50%] Built target exe03_client
+[1.006s] [ 58%] Built target exer01_pub_sub
+[1.009s] [ 75%] Built target exe02_server
+[1.013s] [ 91%] Built target exe04_action_server
+[3.788s] [100%] [32m[1mLinking CXX executable exe06_param[0m
+[3.920s] [100%] Built target exe06_param
+[3.932s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise:/home/sophia/workspace/about_ros/code/about_ros2/param_ros/install/cpp04_param:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/cpp03_action:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble /usr/bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/cpp07_exercise -- -j8 -l8
+[3.982s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise:/home/sophia/workspace/about_ros/code/about_ros2/param_ros/install/cpp04_param:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/cpp03_action:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/cpp07_exercise
+[3.989s] -- Install configuration: ""
+[3.990s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub
+[3.990s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/lib/cpp07_exercise/exe02_server
+[3.990s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/lib/cpp07_exercise/exe03_client
+[3.991s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/lib/cpp07_exercise/exe04_action_server
+[3.991s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/lib/cpp07_exercise/exe05_action_client
+[3.991s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/lib/cpp07_exercise/exe06_param
+[3.992s] -- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/lib/cpp07_exercise/exe06_param" to ""
+[3.993s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/launch
+[3.993s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py
+[3.993s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/launch/exe02_server_launch.py
+[3.993s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/launch/exe05_action_client_launch.py
+[3.993s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/launch/exe03_client_launch.py
+[3.993s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/launch/exe06_param_launch.py
+[3.993s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/launch/exe04_action_server_launch.py
+[3.993s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise
+[3.993s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise
+[3.994s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh
+[3.994s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv
+[3.994s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh
+[3.994s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv
+[3.994s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash
+[3.994s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh
+[3.994s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh
+[3.994s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv
+[3.994s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/package.dsv
+[3.994s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise
+[3.994s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake
+[3.995s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake
+[3.995s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise/share/cpp07_exercise/package.xml
+[3.996s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/install/cpp07_exercise:/home/sophia/workspace/about_ros/code/about_ros2/param_ros/install/cpp04_param:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/cpp03_action:/home/sophia/workspace/about_ros/code/about_ros2/action_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/first_hello_test:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/cpp02_server:/home/sophia/workspace/about_ros/code/about_ros2/server_ros/install/base_interfaces_demo:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/topic_test_cpp:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/cpp01_topic:/home/sophia/workspace/about_ros/code/about_ros2/topic_ros/install/base_interface_demo:/home/sophia/workspace/about_ros/code/about_ros2/first_ros/install/first_helloworld_cpp:/opt/ros/humble /usr/bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/exercise_ros/build/cpp07_exercise

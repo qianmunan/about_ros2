@@ -64,12 +64,20 @@ ament_target_dependencies(
     "rclcpp_action"
     )
 
+add_executable(exe06_param src/exe06_param.cpp)
+ament_target_dependencies(
+  exe06_param
+  "rclcpp"
+  "turtlesim"
+)
+
 install(TARGETS 
     exer01_pub_sub
     exe02_server
     exe03_client
     exe04_action_server
     exe05_action_client
+    exe06_param
     DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
