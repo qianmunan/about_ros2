@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000390] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.000416] (cpp02_rosbag) JobQueued: {'identifier': 'cpp02_rosbag', 'dependencies': OrderedDict()}
+[0.000437] (cpp02_rosbag) JobStarted: {'identifier': 'cpp02_rosbag'}
+[0.009000] (cpp02_rosbag) JobProgress: {'identifier': 'cpp02_rosbag', 'progress': 'cmake'}
+[0.009359] (cpp02_rosbag) Command: {'cmd': ['/bin/cmake', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag', '-DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag'], 'cwd': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag', 'env': OrderedDict([('USER', 'sophia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sophia'), ('OLDPWD', '/home/sophia/workspace/about_ros/code/about_ros2'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/sophia/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1815'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'sophia'), ('_', '/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'sophia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/bin:/usr/bin:/usr/local/bin:/opt/ros/humble/bin:/home/sophia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Lenovo:@/tmp/.ICE-unix/1765,unix/Lenovo:/tmp/.ICE-unix/1765'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d5875bd_996b_42de_a3da_754c1bd6e87b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SERVICE', ':1.494'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch:/opt/ros/humble')]), 'shell': False}
+[0.058544] (cpp02_rosbag) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099830] (-) TimerEvent: {}
+[0.108838] (cpp02_rosbag) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.116108] (cpp02_rosbag) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.178948] (cpp02_rosbag) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.185517] (cpp02_rosbag) StdoutLine: {'line': b'-- Check for working C compiler: /bin/cc - skipped\n'}
+[0.185793] (cpp02_rosbag) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.186118] (cpp02_rosbag) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.188809] (cpp02_rosbag) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199922] (-) TimerEvent: {}
+[0.260053] (cpp02_rosbag) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.267367] (cpp02_rosbag) StdoutLine: {'line': b'-- Check for working CXX compiler: /bin/c++ - skipped\n'}
+[0.267792] (cpp02_rosbag) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.268286] (cpp02_rosbag) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.270320] (cpp02_rosbag) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300005] (-) TimerEvent: {}
+[0.400257] (-) TimerEvent: {}
+[0.500476] (-) TimerEvent: {}
+[0.581344] (cpp02_rosbag) StdoutLine: {'line': b'-- Found Python3: /bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.600575] (-) TimerEvent: {}
+[0.656601] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.693665] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.697689] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.700635] (-) TimerEvent: {}
+[0.704998] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.717464] (cpp02_rosbag) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.735527] (cpp02_rosbag) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800774] (-) TimerEvent: {}
+[0.802300] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.804384] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.890334] (cpp02_rosbag) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.900881] (-) TimerEvent: {}
+[0.913716] (cpp02_rosbag) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.956450] (cpp02_rosbag) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.967015] (cpp02_rosbag) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.001044] (-) TimerEvent: {}
+[1.031340] (cpp02_rosbag) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.031928] (cpp02_rosbag) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.098454] (cpp02_rosbag) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.099336] (cpp02_rosbag) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101154] (-) TimerEvent: {}
+[1.201351] (-) TimerEvent: {}
+[1.276667] (cpp02_rosbag) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (find_package):\n'}
+[1.276908] (cpp02_rosbag) StderrLine: {'line': b'  By not providing "Findros2bag2_cpp.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.277094] (cpp02_rosbag) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.277164] (cpp02_rosbag) StderrLine: {'line': b'  "ros2bag2_cpp", but CMake did not find one.\n'}
+[1.277220] (cpp02_rosbag) StderrLine: {'line': b'\n'}
+[1.277272] (cpp02_rosbag) StderrLine: {'line': b'  Could not find a package configuration file provided by "ros2bag2_cpp" with\n'}
+[1.277325] (cpp02_rosbag) StderrLine: {'line': b'  any of the following names:\n'}
+[1.277375] (cpp02_rosbag) StderrLine: {'line': b'\n'}
+[1.277424] (cpp02_rosbag) StderrLine: {'line': b'    ros2bag2_cppConfig.cmake\n'}
+[1.277474] (cpp02_rosbag) StderrLine: {'line': b'    ros2bag2_cpp-config.cmake\n'}
+[1.277523] (cpp02_rosbag) StderrLine: {'line': b'\n'}
+[1.277574] (cpp02_rosbag) StderrLine: {'line': b'  Add the installation prefix of "ros2bag2_cpp" to CMAKE_PREFIX_PATH or set\n'}
+[1.277623] (cpp02_rosbag) StderrLine: {'line': b'  "ros2bag2_cpp_DIR" to a directory containing one of the above files.  If\n'}
+[1.277672] (cpp02_rosbag) StderrLine: {'line': b'  "ros2bag2_cpp" provides a separate development package or SDK, be sure it\n'}
+[1.277722] (cpp02_rosbag) StderrLine: {'line': b'  has been installed.\n'}
+[1.277770] (cpp02_rosbag) StderrLine: {'line': b'\n'}
+[1.277819] (cpp02_rosbag) StderrLine: {'line': b'\x1b[0m\n'}
+[1.277868] (cpp02_rosbag) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.277924] (cpp02_rosbag) StdoutLine: {'line': b'See also "/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag/CMakeFiles/CMakeOutput.log".\n'}
+[1.286146] (cpp02_rosbag) CommandEnded: {'returncode': 1}
+[1.302964] (-) TimerEvent: {}
+[1.305804] (cpp02_rosbag) JobEnded: {'identifier': 'cpp02_rosbag', 'rc': 1}
+[1.316385] (-) EventReactorShutdown: {}
