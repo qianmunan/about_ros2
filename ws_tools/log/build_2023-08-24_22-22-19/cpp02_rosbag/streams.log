@@ -1,0 +1,28 @@
+[0.013s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag -- -j8 -l8
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target demo02_reader[0m
+[0.065s] [ 50%] Built target demo01_writer
+[0.070s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_reader.dir/src/demo02_reader.cpp.o[0m
+[3.122s] [100%] [32m[1mLinking CXX executable demo02_reader[0m
+[3.301s] [100%] Built target demo02_reader
+[3.312s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag -- -j8 -l8
+[3.349s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag
+[3.356s] -- Install configuration: ""
+[3.356s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer
+[3.357s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader
+[3.357s] -- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader" to ""
+[3.358s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp02_rosbag
+[3.358s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp02_rosbag
+[3.358s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.sh
+[3.358s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.dsv
+[3.358s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.sh
+[3.358s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.dsv
+[3.358s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.bash
+[3.358s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.sh
+[3.359s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.zsh
+[3.359s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.dsv
+[3.359s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.dsv
+[3.359s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/ament_index/resource_index/packages/cpp02_rosbag
+[3.359s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig.cmake
+[3.359s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig-version.cmake
+[3.359s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.xml
+[3.360s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag

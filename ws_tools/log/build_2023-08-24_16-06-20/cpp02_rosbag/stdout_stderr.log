@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_writer[0m
+[ 50%] Built target demo02_reader
+[ 75%] [32mBuilding CXX object CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o[0m
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:[m[K In constructor ‘[01m[KSimpleBagRecorder::SimpleBagRecorder()[m[K’:
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:16:125:[m[K [01;31m[Kerror: [m[K‘[01m[Kdo_writer_msg[m[K’ is not a member of ‘[01m[KSimpleBagRecorder[m[K’
+   16 | :Twist>("/turtle1/cmd_vel",10,std::bind(&SimpleBagRecorder::[01;31m[Kdo_writer_msg[m[K, this, std::placeholders::__1));
+      |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:16:165:[m[K [01;31m[Kerror: [m[K‘[01m[K__1[m[K’ is not a member of ‘[01m[Kstd::placeholders[m[K’; did you mean ‘[01m[K_21[m[K’?
+   16 | bind(&SimpleBagRecorder::do_writer_msg, this, std::placeholders::[01;31m[K__1[m[K));
+      |                                                                  [01;31m[K^~~[m[K
+      |                                                                  [32m[K_21[m[K
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:[m[K In member function ‘[01m[Kvoid SimpleBagRecorder::do_writer_mag(std::shared_ptr<rclcpp::SerializedMessage>)[m[K’:
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:23:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Krosbag2_cpp::Writer::Writer[m[K’
+   23 |             writer_->[01;31m[KWriter[m[K(msg,"turtle1/cmd_vel","geometry_msgs/msg/Twist",this->now());
+      |                      [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_writer.dir/build.make:76: CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo01_writer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

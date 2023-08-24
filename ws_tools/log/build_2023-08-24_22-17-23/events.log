@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000505] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.000579] (cpp02_rosbag) JobQueued: {'identifier': 'cpp02_rosbag', 'dependencies': OrderedDict()}
+[0.000601] (cpp02_rosbag) JobStarted: {'identifier': 'cpp02_rosbag'}
+[0.009124] (cpp02_rosbag) JobProgress: {'identifier': 'cpp02_rosbag', 'progress': 'cmake'}
+[0.009774] (cpp02_rosbag) JobProgress: {'identifier': 'cpp02_rosbag', 'progress': 'build'}
+[0.010612] (cpp02_rosbag) Command: {'cmd': ['/bin/cmake', '--build', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag', '--', '-j8', '-l8'], 'cwd': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag', 'env': OrderedDict([('USER', 'sophia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sophia'), ('OLDPWD', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/my_bag'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/sophia/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1552'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2059'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '71791'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'sophia'), ('JOURNAL_STREAM', '8:35941'), ('_', '/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'sophia'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/bin:/usr/bin:/usr/local/bin:/home/sophia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Lenovo:@/tmp/.ICE-unix/1779,unix/Lenovo:/tmp/.ICE-unix/1779'), ('INVOCATION_ID', 'e4a88fa288c24eecb55409c1187c39d4'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:3e5c7b73-0844-4fea-bf9b-7cd95235ec8a'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch:/opt/ros/humble')]), 'shell': False}
+[0.053252] (cpp02_rosbag) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo02_reader\x1b[0m\n'}
+[0.065653] (cpp02_rosbag) StdoutLine: {'line': b'[ 50%] Built target demo01_writer\n'}
+[0.071148] (cpp02_rosbag) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/demo02_reader.dir/src/demo02_reader.cpp.o\x1b[0m\n'}
+[0.099265] (-) TimerEvent: {}
+[0.199517] (-) TimerEvent: {}
+[0.299778] (-) TimerEvent: {}
+[0.400038] (-) TimerEvent: {}
+[0.500298] (-) TimerEvent: {}
+[0.600607] (-) TimerEvent: {}
+[0.700863] (-) TimerEvent: {}
+[0.801144] (-) TimerEvent: {}
+[0.901414] (-) TimerEvent: {}
+[1.001698] (-) TimerEvent: {}
+[1.101963] (-) TimerEvent: {}
+[1.202236] (-) TimerEvent: {}
+[1.302528] (-) TimerEvent: {}
+[1.402828] (-) TimerEvent: {}
+[1.503136] (-) TimerEvent: {}
+[1.603413] (-) TimerEvent: {}
+[1.703686] (-) TimerEvent: {}
+[1.803964] (-) TimerEvent: {}
+[1.904235] (-) TimerEvent: {}
+[2.004510] (-) TimerEvent: {}
+[2.105139] (-) TimerEvent: {}
+[2.205406] (-) TimerEvent: {}
+[2.305665] (-) TimerEvent: {}
+[2.405931] (-) TimerEvent: {}
+[2.425778] (cpp02_rosbag) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo02_reader.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSimpleBagPlay::SimpleBagPlay()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.426052] (cpp02_rosbag) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo02_reader.cpp:9:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kreader\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kreader_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.426120] (cpp02_rosbag) StderrLine: {'line': b'    9 |             \x1b[01;31m\x1b[Kreader\x1b[m\x1b[K = std::make_unique<rosbag2_cpp::Reader>();\n'}
+[2.426175] (cpp02_rosbag) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.426226] (cpp02_rosbag) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kreader_\x1b[m\x1b[K\n'}
+[2.426276] (cpp02_rosbag) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo02_reader.cpp:13:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rosbag2_cpp::Reader\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kreader_next\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kread_next\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.426336] (cpp02_rosbag) StderrLine: {'line': b'   13 |                 auto twist = reader_->\x1b[01;31m\x1b[Kreader_next\x1b[m\x1b[K<geometry_msgs::msg::Twist>();\n'}
+[2.426386] (cpp02_rosbag) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.426435] (cpp02_rosbag) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[Kread_next\x1b[m\x1b[K\n'}
+[2.426483] (cpp02_rosbag) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo02_reader.cpp:13:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.426534] (cpp02_rosbag) StderrLine: {'line': b'   13 |                 auto twist = reader_->reader_next<geometry_msgs::msg::Twist\x1b[01;31m\x1b[K>\x1b[m\x1b[K();\n'}
+[2.426582] (cpp02_rosbag) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.426630] (cpp02_rosbag) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo02_reader.cpp:13:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.426714] (cpp02_rosbag) StderrLine: {'line': b'   13 |                 auto twist = reader_->reader_next<geometry_msgs::msg::Twist>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.426798] (cpp02_rosbag) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.506061] (-) TimerEvent: {}
+[2.606376] (-) TimerEvent: {}
+[2.706787] (-) TimerEvent: {}
+[2.807061] (-) TimerEvent: {}
+[2.907401] (-) TimerEvent: {}
+[2.912868] (cpp02_rosbag) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo02_reader.dir/build.make:76: CMakeFiles/demo02_reader.dir/src/demo02_reader.cpp.o] Error 1\n'}
+[2.913089] (cpp02_rosbag) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_reader.dir/all] Error 2\n'}
+[2.913322] (cpp02_rosbag) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.915191] (cpp02_rosbag) CommandEnded: {'returncode': 2}
+[2.954308] (cpp02_rosbag) JobEnded: {'identifier': 'cpp02_rosbag', 'rc': 2}
+[2.964821] (-) EventReactorShutdown: {}

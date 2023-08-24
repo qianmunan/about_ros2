@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000336] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.000375] (cpp02_rosbag) JobQueued: {'identifier': 'cpp02_rosbag', 'dependencies': OrderedDict()}
+[0.000702] (cpp02_rosbag) JobStarted: {'identifier': 'cpp02_rosbag'}
+[0.007206] (cpp02_rosbag) JobProgress: {'identifier': 'cpp02_rosbag', 'progress': 'cmake'}
+[0.007757] (cpp02_rosbag) JobProgress: {'identifier': 'cpp02_rosbag', 'progress': 'build'}
+[0.008423] (cpp02_rosbag) Command: {'cmd': ['/bin/cmake', '--build', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag', '--', '-j8', '-l8'], 'cwd': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag', 'env': OrderedDict([('USER', 'sophia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/sophia'), ('OLDPWD', '/home/sophia/workspace/about_ros/code/about_ros2'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/sophia/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1820'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'sophia'), ('_', '/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sophia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/bin:/usr/bin:/usr/local/bin:/home/sophia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Lenovo:@/tmp/.ICE-unix/1779,unix/Lenovo:/tmp/.ICE-unix/1779'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b02b4e82_deda_4c01_b830_3bde85638934'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SERVICE', ':1.452'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.047327] (cpp02_rosbag) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_writer\x1b[0m\n'}
+[0.059056] (cpp02_rosbag) StdoutLine: {'line': b'[ 50%] Built target demo02_reader\n'}
+[0.064102] (cpp02_rosbag) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o\x1b[0m\n'}
+[0.100038] (-) TimerEvent: {}
+[0.200308] (-) TimerEvent: {}
+[0.300606] (-) TimerEvent: {}
+[0.400924] (-) TimerEvent: {}
+[0.501162] (-) TimerEvent: {}
+[0.601384] (-) TimerEvent: {}
+[0.701677] (-) TimerEvent: {}
+[0.801917] (-) TimerEvent: {}
+[0.902361] (-) TimerEvent: {}
+[1.002590] (-) TimerEvent: {}
+[1.102855] (-) TimerEvent: {}
+[1.203106] (-) TimerEvent: {}
+[1.303458] (-) TimerEvent: {}
+[1.403807] (-) TimerEvent: {}
+[1.504085] (-) TimerEvent: {}
+[1.604357] (-) TimerEvent: {}
+[1.704637] (-) TimerEvent: {}
+[1.804951] (-) TimerEvent: {}
+[1.905232] (-) TimerEvent: {}
+[2.005521] (-) TimerEvent: {}
+[2.105843] (-) TimerEvent: {}
+[2.206140] (-) TimerEvent: {}
+[2.306434] (-) TimerEvent: {}
+[2.406827] (-) TimerEvent: {}
+[2.507145] (-) TimerEvent: {}
+[2.607535] (-) TimerEvent: {}
+[2.707775] (-) TimerEvent: {}
+[2.808065] (-) TimerEvent: {}
+[2.908298] (-) TimerEvent: {}
+[3.008598] (-) TimerEvent: {}
+[3.108840] (-) TimerEvent: {}
+[3.209174] (-) TimerEvent: {}
+[3.309427] (-) TimerEvent: {}
+[3.409802] (-) TimerEvent: {}
+[3.510030] (-) TimerEvent: {}
+[3.610370] (-) TimerEvent: {}
+[3.710602] (-) TimerEvent: {}
+[3.810901] (-) TimerEvent: {}
+[3.911136] (-) TimerEvent: {}
+[4.011418] (-) TimerEvent: {}
+[4.111652] (-) TimerEvent: {}
+[4.211961] (-) TimerEvent: {}
+[4.312234] (-) TimerEvent: {}
+[4.412519] (-) TimerEvent: {}
+[4.512775] (-) TimerEvent: {}
+[4.613101] (-) TimerEvent: {}
+[4.713436] (-) TimerEvent: {}
+[4.813845] (-) TimerEvent: {}
+[4.914190] (-) TimerEvent: {}
+[5.014547] (-) TimerEvent: {}
+[5.114947] (-) TimerEvent: {}
+[5.215562] (-) TimerEvent: {}
+[5.316248] (-) TimerEvent: {}
+[5.416517] (-) TimerEvent: {}
+[5.516783] (-) TimerEvent: {}
+[5.617054] (-) TimerEvent: {}
+[5.717314] (-) TimerEvent: {}
+[5.817586] (-) TimerEvent: {}
+[5.917975] (-) TimerEvent: {}
+[6.018280] (-) TimerEvent: {}
+[6.118543] (-) TimerEvent: {}
+[6.218803] (-) TimerEvent: {}
+[6.319070] (-) TimerEvent: {}
+[6.419332] (-) TimerEvent: {}
+[6.519597] (-) TimerEvent: {}
+[6.619862] (-) TimerEvent: {}
+[6.720127] (-) TimerEvent: {}
+[6.820396] (-) TimerEvent: {}
+[6.920664] (-) TimerEvent: {}
+[7.020923] (-) TimerEvent: {}
+[7.121179] (-) TimerEvent: {}
+[7.221458] (-) TimerEvent: {}
+[7.321716] (-) TimerEvent: {}
+[7.421976] (-) TimerEvent: {}
+[7.522257] (-) TimerEvent: {}
+[7.622535] (-) TimerEvent: {}
+[7.722800] (-) TimerEvent: {}
+[7.823357] (-) TimerEvent: {}
+[7.923757] (-) TimerEvent: {}
+[8.024361] (-) TimerEvent: {}
+[8.124908] (-) TimerEvent: {}
+[8.225553] (-) TimerEvent: {}
+[8.325848] (-) TimerEvent: {}
+[8.426143] (-) TimerEvent: {}
+[8.526434] (-) TimerEvent: {}
+[8.626746] (-) TimerEvent: {}
+[8.702187] (cpp02_rosbag) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo01_writer\x1b[0m\n'}
+[8.726952] (-) TimerEvent: {}
+[8.827678] (-) TimerEvent: {}
+[8.928443] (-) TimerEvent: {}
+[9.028957] (-) TimerEvent: {}
+[9.129494] (-) TimerEvent: {}
+[9.230085] (-) TimerEvent: {}
+[9.330766] (-) TimerEvent: {}
+[9.431319] (-) TimerEvent: {}
+[9.531969] (-) TimerEvent: {}
+[9.632521] (-) TimerEvent: {}
+[9.733148] (-) TimerEvent: {}
+[9.833688] (-) TimerEvent: {}
+[9.934268] (-) TimerEvent: {}
+[10.034811] (-) TimerEvent: {}
+[10.135282] (-) TimerEvent: {}
+[10.235948] (-) TimerEvent: {}
+[10.336347] (-) TimerEvent: {}
+[10.436950] (-) TimerEvent: {}
+[10.537455] (-) TimerEvent: {}
+[10.637723] (-) TimerEvent: {}
+[10.732530] (cpp02_rosbag) StdoutLine: {'line': b'[100%] Built target demo01_writer\n'}
+[10.737843] (-) TimerEvent: {}
+[10.742360] (cpp02_rosbag) CommandEnded: {'returncode': 0}
+[10.766353] (cpp02_rosbag) JobProgress: {'identifier': 'cpp02_rosbag', 'progress': 'install'}
+[10.774685] (cpp02_rosbag) Command: {'cmd': ['/bin/cmake', '--install', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag'], 'cwd': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag', 'env': OrderedDict([('USER', 'sophia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/sophia'), ('OLDPWD', '/home/sophia/workspace/about_ros/code/about_ros2'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/sophia/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1820'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'sophia'), ('_', '/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sophia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/bin:/usr/bin:/usr/local/bin:/home/sophia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Lenovo:@/tmp/.ICE-unix/1779,unix/Lenovo:/tmp/.ICE-unix/1779'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b02b4e82_deda_4c01_b830_3bde85638934'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SERVICE', ':1.452'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[10.798042] (cpp02_rosbag) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.813781] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer\n'}
+[10.818783] (cpp02_rosbag) StdoutLine: {'line': b'-- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer" to ""\n'}
+[10.835955] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader\n'}
+[10.836765] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp02_rosbag\n'}
+[10.837600] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp02_rosbag\n'}
+[10.838385] (-) TimerEvent: {}
+[10.838727] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.sh\n'}
+[10.839273] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.dsv\n'}
+[10.839590] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.sh\n'}
+[10.839852] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.dsv\n'}
+[10.840092] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.bash\n'}
+[10.840326] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.sh\n'}
+[10.840557] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.zsh\n'}
+[10.840785] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.dsv\n'}
+[10.841113] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.dsv\n'}
+[10.852085] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/ament_index/resource_index/packages/cpp02_rosbag\n'}
+[10.852899] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig.cmake\n'}
+[10.853328] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig-version.cmake\n'}
+[10.853627] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.xml\n'}
+[10.863888] (cpp02_rosbag) CommandEnded: {'returncode': 0}
+[10.939337] (-) TimerEvent: {}
+[10.945481] (cpp02_rosbag) JobEnded: {'identifier': 'cpp02_rosbag', 'rc': 0}
+[10.946258] (-) EventReactorShutdown: {}

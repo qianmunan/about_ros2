@@ -1,0 +1,28 @@
+[0.010s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag': /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag -- -j8 -l8
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target demo01_writer[0m
+[0.058s] [ 50%] Built target demo02_reader
+[0.063s] [ 75%] [32mBuilding CXX object CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o[0m
+[8.702s] [100%] [32m[1mLinking CXX executable demo01_writer[0m
+[10.732s] [100%] Built target demo01_writer
+[10.742s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag' returned '0': /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag -- -j8 -l8
+[10.774s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag': /bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag
+[10.797s] -- Install configuration: ""
+[10.813s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer
+[10.818s] -- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer" to ""
+[10.835s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader
+[10.837s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp02_rosbag
+[10.837s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp02_rosbag
+[10.838s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.sh
+[10.839s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.dsv
+[10.839s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.sh
+[10.839s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.dsv
+[10.839s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.bash
+[10.840s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.sh
+[10.840s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.zsh
+[10.840s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.dsv
+[10.840s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.dsv
+[10.852s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/ament_index/resource_index/packages/cpp02_rosbag
+[10.852s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig.cmake
+[10.853s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig-version.cmake
+[10.853s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.xml
+[10.864s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag' returned '0': /bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag

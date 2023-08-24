@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag -- -j8 -l8
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target demo02_reader[0m
+[0.066s] [ 50%] Built target demo01_writer
+[0.069s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_reader.dir/src/demo02_reader.cpp.o[0m
+[2.454s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo02_reader.cpp:[m[K In constructor ‘[01m[KSimpleBagPlay::SimpleBagPlay()[m[K’:
+[2.454s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo02_reader.cpp:9:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kreader[m[K’ was not declared in this scope; did you mean ‘[01m[Kreader_[m[K’?
+[2.454s]     9 |             [01;31m[Kreader[m[K = std::make_unique<rosbag2_cpp::Reader>();
+[2.454s]       |             [01;31m[K^~~~~~[m[K
+[2.454s]       |             [32m[Kreader_[m[K
+[2.454s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo02_reader.cpp:13:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rosbag2_cpp::Reader[m[K’ has no member named ‘[01m[Kreader_next[m[K’; did you mean ‘[01m[Kread_next[m[K’?
+[2.454s]    13 |                 auto twist = reader_->[01;31m[Kreader_next[m[K<geometry_msgs::msg::Twist>();
+[2.454s]       |                                       [01;31m[K^~~~~~~~~~~[m[K
+[2.454s]       |                                       [32m[Kread_next[m[K
+[2.454s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo02_reader.cpp:13:76:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.454s]    13 |                 auto twist = reader_->reader_next<geometry_msgs::msg::Twist[01;31m[K>[m[K();
+[2.454s]       |                                                                            [01;31m[K^[m[K
+[2.454s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo02_reader.cpp:13:78:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.454s]    13 |                 auto twist = reader_->reader_next<geometry_msgs::msg::Twist>([01;31m[K)[m[K;
+[2.455s]       |                                                                              [01;31m[K^[m[K
+[2.937s] gmake[2]: *** [CMakeFiles/demo02_reader.dir/build.make:76: CMakeFiles/demo02_reader.dir/src/demo02_reader.cpp.o] Error 1
+[2.937s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_reader.dir/all] Error 2
+[2.937s] gmake: *** [Makefile:146: all] Error 2
+[2.939s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag -- -j8 -l8

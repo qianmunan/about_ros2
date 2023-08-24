@@ -1,0 +1,44 @@
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:27:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kgemoetry_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs[m[K’?
+   27 |         rclcpp::Subscription<[01;31m[Kgemoetry_msgs[m[K::msg::Twist>::SharedPtr sub_;
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+      |                              [32m[Kgeometry_msgs[m[K
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:27:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   27 |         rclcpp::Subscription<gemoetry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr sub_;
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:27:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:27:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:27:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:27:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   27 |         rclcpp::Subscription<gemoetry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K sub_;
+      |                                                          [01;31m[K^~~~~~~~~[m[K
+      |                                                                   [32m[K;[m[K
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:27:68:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_[m[K’ does not name a type
+   27 |        rclcpp::Subscription<gemoetry_msgs::msg::Twist>::SharedPtr [01;31m[Ksub_[m[K;
+      |                                                                   [01;31m[K^~~~[m[K
+
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:[m[K In constructor ‘[01m[KSimpleBagRecorder::SimpleBagRecorder()[m[K’:
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:16:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_[m[K’ was not declared in this scope
+   16 |             [01;31m[Ksub_[m[K = this->create_subscription<gemoetry_msgs::msg::Twist>("/turtle1/cmd_vel",10,std::bind(&SimpleBagRecorder::do_writer_msg, this, std::placeholders::__1));
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:16:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kgemoetry_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs[m[K’?
+   16 |             sub_ = this->create_subscription<[01;31m[Kgemoetry_msgs[m[K::msg::Twist>("/turtle1/cmd_vel",10,std::bind(&SimpleBagRecorder::do_writer_msg, this, std::placeholders::__1));
+      |                                              [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                              [32m[Kgeometry_msgs[m[K
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:16:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   16 |             sub_ = this->[01;31m[Kcreate_subscription<gemoetry_msgs::msg::Twist>[m[K("/turtle1/cmd_vel",10,std::bind(&SimpleBagRecorder::do_writer_msg, this, std::placeholders::__1));
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:16:125:[m[K [01;31m[Kerror: [m[K‘[01m[Kdo_writer_msg[m[K’ is not a member of ‘[01m[KSimpleBagRecorder[m[K’
+   16 | :Twist>("/turtle1/cmd_vel",10,std::bind(&SimpleBagRecorder::[01;31m[Kdo_writer_msg[m[K, this, std::placeholders::__1));
+      |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:16:165:[m[K [01;31m[Kerror: [m[K‘[01m[K__1[m[K’ is not a member of ‘[01m[Kstd::placeholders[m[K’; did you mean ‘[01m[K_21[m[K’?
+   16 | bind(&SimpleBagRecorder::do_writer_msg, this, std::placeholders::[01;31m[K__1[m[K));
+      |                                                                  [01;31m[K^~~[m[K
+      |                                                                  [32m[K_21[m[K
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:[m[K In member function ‘[01m[Kvoid SimpleBagRecorder::do_writer_mag(std::shared_ptr<rclcpp::SerializedMessage>)[m[K’:
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/src/demo01_writer.cpp:23:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Krosbag2_cpp::Writer::Writer[m[K’
+   23 |             writer_->[01;31m[KWriter[m[K(msg,"turtle1/cmd_vel","geometry_msgs/msg/Twist",this->now());
+      |                      [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_writer.dir/build.make:76: CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo01_writer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,30 @@
+[0.107s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch': /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch -- -j8 -l8
+[1.403s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch' returned '0': /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch -- -j8 -l8
+[1.461s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch': /bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch
+[2.387s] -- Install configuration: ""
+[2.387s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/launch
+[2.387s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/launch/py01_helloworld_launch.py
+[2.388s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/launch/py04_args_launch.py
+[2.388s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/launch/py03_cmd_launch.py
+[2.388s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/launch/py02_node_launch.py
+[2.388s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/launch/py06_group_launch.py
+[2.389s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/launch/py07_event_launch.py
+[2.607s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/launch/py05_include_launch.py
+[2.608s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/config
+[2.609s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/config/haha.yaml
+[2.609s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/ament_index/resource_index/package_run_dependencies/cpp01_launch
+[2.609s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/ament_index/resource_index/parent_prefix_path/cpp01_launch
+[2.610s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.sh
+[2.610s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.dsv
+[2.611s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/environment/path.sh
+[2.612s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/environment/path.dsv
+[2.612s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/local_setup.bash
+[2.612s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/local_setup.sh
+[2.612s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/local_setup.zsh
+[2.613s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/local_setup.dsv
+[2.613s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/package.dsv
+[2.647s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/ament_index/resource_index/packages/cpp01_launch
+[2.647s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig.cmake
+[2.648s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig-version.cmake
+[2.648s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/package.xml
+[2.655s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch' returned '0': /bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch

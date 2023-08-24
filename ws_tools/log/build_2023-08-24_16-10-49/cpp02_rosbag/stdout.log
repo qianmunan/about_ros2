@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_writer[0m
+[ 50%] Built target demo02_reader
+[ 75%] [32mBuilding CXX object CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o[0m
