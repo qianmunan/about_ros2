@@ -1,0 +1,2 @@
+Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener -- -j8 -l8
+Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener -- -j8 -l8

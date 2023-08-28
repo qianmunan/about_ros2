@@ -1,0 +1,67 @@
+[0.015s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener -- -j8 -l8
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target demo01_tf_listener[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o[0m
+[2.306s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.307s]                  from [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:1[m[K:
+[2.307s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:[m[K In member function ‘[01m[Kvoid TFListener::on_timer()[m[K’:
+[2.307s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:39:25:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.307s]    39 |                         [01;35m[K"新坐标帧：父坐标系:%s, 子坐标系：%s, 偏移量(%.2f,%.2f,%.2f)"[m[K,
+[2.307s]       |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.307s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:39:46:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.307s]    39 |                         "新坐标帧：父坐标系:[01;36m[K%s[m[K, 子坐标系：%s, 偏移量(%.2f,%.2f,%.2f)",
+[2.307s]       |                                             [01;36m[K~^[m[K
+[2.307s]       |                                              [01;36m[K|[m[K
+[2.308s]       |                                              [01;36m[Kchar*[m[K
+[2.308s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.308s]                  from [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:1[m[K:
+[2.308s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:39:25:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 6 has type ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >::_child_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.308s]    39 |                         [01;35m[K"新坐标帧：父坐标系:%s, 子坐标系：%s, 偏移量(%.2f,%.2f,%.2f)"[m[K,
+[2.308s]       |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.308s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:39:60:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.308s]    39 |                         "新坐标帧：父坐标系:%s, 子坐标系：[01;36m[K%s[m[K, 偏移量(%.2f,%.2f,%.2f)",
+[2.308s]       |                                                           [01;36m[K~^[m[K
+[2.309s]       |                                                            [01;36m[K|[m[K
+[2.309s]       |                                                            [01;36m[Kchar*[m[K
+[7.848s] [100%] [32m[1mLinking CXX executable demo01_tf_listener[0m
+[8.234s] [100%] Built target demo01_tf_listener
+[8.244s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener -- -j8 -l8
+[8.276s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener
+[8.283s] -- Install configuration: ""
+[8.284s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener
+[8.288s] -- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener" to ""
+[8.288s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp04_tf_listener
+[8.288s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp04_tf_listener
+[8.288s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.sh
+[8.288s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.dsv
+[8.288s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.sh
+[8.288s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.dsv
+[8.288s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.bash
+[8.288s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.sh
+[8.289s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.zsh
+[8.289s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.dsv
+[8.289s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv
+[8.289s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/ament_index/resource_index/packages/cpp04_tf_listener
+[8.289s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig.cmake
+[8.289s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig-version.cmake
+[8.289s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.xml
+[8.291s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener

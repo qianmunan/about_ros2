@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000251] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.000298] (-) JobUnselected: {'identifier': 'cpp02_rosbag'}
+[0.000391] (-) JobUnselected: {'identifier': 'cpp03_tf_broadcaster'}
+[0.000424] (cpp04_tf_listener) JobQueued: {'identifier': 'cpp04_tf_listener', 'dependencies': OrderedDict()}
+[0.000450] (cpp04_tf_listener) JobStarted: {'identifier': 'cpp04_tf_listener'}
+[0.008483] (cpp04_tf_listener) JobProgress: {'identifier': 'cpp04_tf_listener', 'progress': 'cmake'}
+[0.009749] (cpp04_tf_listener) JobProgress: {'identifier': 'cpp04_tf_listener', 'progress': 'build'}
+[0.009783] (cpp04_tf_listener) Command: {'cmd': ['/bin/cmake', '--build', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener', '--', '-j8', '-l8'], 'cwd': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener', 'env': OrderedDict([('USER', 'sophia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sophia'), ('OLDPWD', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/sophia/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1795'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'sophia'), ('_', '/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'sophia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/bin:/usr/bin:/usr/local/bin:/home/sophia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Lenovo:@/tmp/.ICE-unix/1772,unix/Lenovo:/tmp/.ICE-unix/1772'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f0bfbc6f_5fef_469f_9f88_a35dbfe1e366'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp03_tf_broadcaster:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp03_tf_broadcaster:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch:/opt/ros/humble')]), 'shell': False}
+[0.050600] (cpp04_tf_listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_tf_listener\x1b[0m\n'}
+[0.067374] (cpp04_tf_listener) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o\x1b[0m\n'}
+[0.098976] (-) TimerEvent: {}
+[0.199232] (-) TimerEvent: {}
+[0.299495] (-) TimerEvent: {}
+[0.399748] (-) TimerEvent: {}
+[0.500020] (-) TimerEvent: {}
+[0.600339] (-) TimerEvent: {}
+[0.700609] (-) TimerEvent: {}
+[0.800878] (-) TimerEvent: {}
+[0.901180] (-) TimerEvent: {}
+[1.001434] (-) TimerEvent: {}
+[1.101691] (-) TimerEvent: {}
+[1.201955] (-) TimerEvent: {}
+[1.302210] (-) TimerEvent: {}
+[1.402465] (-) TimerEvent: {}
+[1.502717] (-) TimerEvent: {}
+[1.602983] (-) TimerEvent: {}
+[1.703249] (-) TimerEvent: {}
+[1.803508] (-) TimerEvent: {}
+[1.903804] (-) TimerEvent: {}
+[2.004136] (-) TimerEvent: {}
+[2.104567] (-) TimerEvent: {}
+[2.204852] (-) TimerEvent: {}
+[2.305135] (-) TimerEvent: {}
+[2.320170] (cpp04_tf_listener) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.320410] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.320489] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.320548] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.320601] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.320655] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.320706] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.320757] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.320807] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.320864] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.320914] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.320964] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:1\x1b[m\x1b[K:\n'}
+[2.321014] (cpp04_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TFListener::on_timer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.321066] (cpp04_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:40:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT* std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::c_str() const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.321121] (cpp04_tf_listener) StderrLine: {'line': b'   40 |                         \x1b[01;31m\x1b[Kts.header.frame_id.c_str\x1b[m\x1b[K,\n'}
+[2.321172] (cpp04_tf_listener) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.321222] (cpp04_tf_listener) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[2.321272] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.321322] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[2.321373] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[2.321422] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[2.321472] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[2.321523] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.321600] (cpp04_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:1\x1b[m\x1b[K:\n'}
+[2.321687] (cpp04_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:2320:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.321741] (cpp04_tf_listener) StderrLine: {'line': b' 2320 |       \x1b[01;36m\x1b[Kc_str\x1b[m\x1b[K() const _GLIBCXX_NOEXCEPT\n'}
+[2.321792] (cpp04_tf_listener) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.405263] (-) TimerEvent: {}
+[2.505571] (-) TimerEvent: {}
+[2.605826] (-) TimerEvent: {}
+[2.706081] (-) TimerEvent: {}
+[2.806335] (-) TimerEvent: {}
+[2.906556] (-) TimerEvent: {}
+[3.006811] (-) TimerEvent: {}
+[3.107064] (-) TimerEvent: {}
+[3.207316] (-) TimerEvent: {}
+[3.307572] (-) TimerEvent: {}
+[3.407864] (-) TimerEvent: {}
+[3.508190] (-) TimerEvent: {}
+[3.608465] (-) TimerEvent: {}
+[3.708694] (-) TimerEvent: {}
+[3.808995] (-) TimerEvent: {}
+[3.909244] (-) TimerEvent: {}
+[4.009519] (-) TimerEvent: {}
+[4.109754] (-) TimerEvent: {}
+[4.210017] (-) TimerEvent: {}
+[4.310268] (-) TimerEvent: {}
+[4.410536] (-) TimerEvent: {}
+[4.491113] (cpp04_tf_listener) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo01_tf_listener.dir/build.make:76: CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o] Error 1\n'}
+[4.491381] (cpp04_tf_listener) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_tf_listener.dir/all] Error 2\n'}
+[4.491562] (cpp04_tf_listener) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.493395] (cpp04_tf_listener) CommandEnded: {'returncode': 2}
+[4.510612] (-) TimerEvent: {}
+[4.530507] (cpp04_tf_listener) JobEnded: {'identifier': 'cpp04_tf_listener', 'rc': 2}
+[4.542272] (-) EventReactorShutdown: {}
