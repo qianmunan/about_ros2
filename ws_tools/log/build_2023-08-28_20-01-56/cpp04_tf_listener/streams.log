@@ -1,0 +1,33 @@
+[0.008s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener': /bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener
+[0.680s] -- The C compiler identification is GNU 11.4.0
+[0.875s] -- The CXX compiler identification is GNU 11.4.0
+[0.917s] -- Detecting C compiler ABI info
+[1.088s] -- Detecting C compiler ABI info - done
+[1.096s] -- Check for working C compiler: /bin/cc - skipped
+[1.096s] -- Detecting C compile features
+[1.110s] -- Detecting C compile features - done
+[1.144s] -- Detecting CXX compiler ABI info
+[1.553s] -- Detecting CXX compiler ABI info - done
+[1.561s] -- Check for working CXX compiler: /bin/c++ - skipped
+[1.561s] -- Detecting CXX compile features
+[1.561s] -- Detecting CXX compile features - done
+[1.713s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[1.713s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.714s]   has asked CMake to find a package configuration file provided by
+[1.714s]   "ament_cmake", but CMake did not find one.
+[1.714s] 
+[1.714s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.715s]   any of the following names:
+[1.715s] 
+[1.715s]     ament_cmakeConfig.cmake
+[1.716s]     ament_cmake-config.cmake
+[1.716s] 
+[1.716s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.717s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.717s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.718s]   has been installed.
+[1.718s] 
+[1.718s] [0m
+[1.719s] -- Configuring incomplete, errors occurred!
+[1.719s] See also "/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener/CMakeFiles/CMakeOutput.log".
+[1.724s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener' returned '1': /bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener

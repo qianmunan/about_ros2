@@ -1,0 +1,1 @@
+Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch': /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch -- -j8 -l8

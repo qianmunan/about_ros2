@@ -1,0 +1,4 @@
+[0.072s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag': /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag -- -j8 -l8
+[0.279s] [35m[1mConsolidate compiler generated dependencies of target demo02_reader[0m
+[0.322s] [100%] Built target demo01_writer
+[0.322s] [100%] Built target demo02_reader

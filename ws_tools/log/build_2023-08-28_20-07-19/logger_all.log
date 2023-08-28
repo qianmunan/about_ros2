@@ -1,0 +1,203 @@
+[0.222s] DEBUG:colcon:Command line arguments: ['/bin/colcon', 'build']
+[0.222s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f17004d9de0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f17005ff790>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f17005ff790>>)
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.250s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extension 'ros'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extensions ['cmake', 'python']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extension 'cmake'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extension 'python'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extensions ['python_setup_py']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag) by extension 'python_setup_py'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp01_launch' with type 'ros.ament_cmake' and name 'cpp01_launch'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp02_rosbag' with type 'ros.ament_cmake' and name 'cpp02_rosbag'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp03_tf_broadcaster' with type 'ros.ament_cmake' and name 'cpp03_tf_broadcaster'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp04_tf_listener' with type 'ros.ament_cmake' and name 'cpp04_tf_listener'
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_target' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'cpp01_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch', 'merge_install': False, 'path': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp01_launch', 'symlink_install': False, 'test_result_base': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'cpp02_rosbag' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag', 'merge_install': False, 'path': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag', 'symlink_install': False, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'cpp03_tf_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp03_tf_broadcaster', 'merge_install': False, 'path': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'cpp04_tf_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener', 'merge_install': False, 'path': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener', 'symlink_install': False, 'test_result_base': None}
+[0.302s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.307s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.307s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp01_launch' with build type 'ament_cmake'
+[0.307s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp01_launch'
+[0.311s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag' with build type 'ament_cmake'
+[0.313s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag'
+[0.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.315s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster' with build type 'ament_cmake'
+[0.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster'
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.318s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.319s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener' with build type 'ament_cmake'
+[0.319s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener'
+[0.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch': /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch -- -j8 -l8
+[0.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag': /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag -- -j8 -l8
+[0.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster': /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster -- -j8 -l8
+[0.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener': /bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener
+[0.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener' returned '1': /bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener
+[0.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp04_tf_listener)
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener' for CMake module files
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener' for CMake config files
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/bin'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/lib/pkgconfig/cpp04_tf_listener.pc'
+[0.452s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/lib/python3.10/site-packages'
+[0.452s] Level 1:colcon.colcon_core.environment:checking '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/bin'
+[0.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.ps1'
+[0.455s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv'
+[0.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.sh'
+[0.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.bash'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.zsh'
+[0.459s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/colcon-core/packages/cpp04_tf_listener)
+[4.932s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.933s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.933s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[4.933s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.937s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.937s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.937s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.951s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/local_setup.ps1'
+[4.954s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/_local_setup_util_ps1.py'
+[4.956s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/setup.ps1'
+[4.958s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/local_setup.sh'
+[4.958s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/_local_setup_util_sh.py'
+[4.959s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/setup.sh'
+[4.960s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/local_setup.bash'
+[4.960s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/setup.bash'
+[4.961s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/local_setup.zsh'
+[4.961s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/setup.zsh'
