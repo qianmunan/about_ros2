@@ -1,0 +1,15 @@
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo03_point_tf_broadcaster.cpp:32:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPublicshared[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type; did you mean ‘[01m[KPublisher[m[K’?
+   32 |         rclcpp::[01;31m[KPublicshared[m[K<geometry_msgs::msg::PointStamped>::SharedPtr point_pub_;
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+      |                 [32m[KPublisher[m[K
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo03_point_tf_broadcaster.cpp:[m[K In constructor ‘[01m[KMiniPointNode::MiniPointNode()[m[K’:
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo03_point_tf_broadcaster.cpp:13:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_pub_[m[K’ was not declared in this scope
+   13 |             [01;31m[Kpoint_pub_[m[K = this->create_publisher<geometry_msgs::msg::PointStamped>("point",10);
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo03_point_tf_broadcaster.cpp:[m[K In member function ‘[01m[Kvoid MiniPointNode::on_timer()[m[K’:
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo03_point_tf_broadcaster.cpp:30:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_pub_[m[K’ was not declared in this scope
+   30 |             [01;31m[Kpoint_pub_[m[K->publish(ps);
+      |             [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo03_point_tf_broadcaster.dir/build.make:76: CMakeFiles/demo03_point_tf_broadcaster.dir/src/demo03_point_tf_broadcaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/demo03_point_tf_broadcaster.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

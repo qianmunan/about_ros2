@@ -1,0 +1,8 @@
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo02_dynamic_tf_broadcaster.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.h: No such file or directory
+    1 | #include [01;31m[K"rclcpp/rclcpp.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo02_dynamic_tf_broadcaster.dir/build.make:76: CMakeFiles/demo02_dynamic_tf_broadcaster.dir/src/demo02_dynamic_tf_broadcaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_dynamic_tf_broadcaster.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

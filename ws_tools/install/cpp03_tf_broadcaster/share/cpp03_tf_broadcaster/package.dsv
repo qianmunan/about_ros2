@@ -1,0 +1,8 @@
+source;share/cpp03_tf_broadcaster/hook/cmake_prefix_path.ps1
+source;share/cpp03_tf_broadcaster/hook/cmake_prefix_path.dsv
+source;share/cpp03_tf_broadcaster/hook/cmake_prefix_path.sh
+source;share/cpp03_tf_broadcaster/local_setup.bash
+source;share/cpp03_tf_broadcaster/local_setup.dsv
+source;share/cpp03_tf_broadcaster/local_setup.ps1
+source;share/cpp03_tf_broadcaster/local_setup.sh
+source;share/cpp03_tf_broadcaster/local_setup.zsh

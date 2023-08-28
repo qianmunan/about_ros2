@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target demo02_dynamic_tf_broadcaster[0m
+[ 50%] Built target demo01_static_tf_broadcaster
+[ 75%] [32mBuilding CXX object CMakeFiles/demo02_dynamic_tf_broadcaster.dir/src/demo02_dynamic_tf_broadcaster.cpp.o[0m
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo02_dynamic_tf_broadcaster.cpp:[m[K In constructor ‘[01m[KTFDynamicBroadcaster::TFDynamicBroadcaster()[m[K’:
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo02_dynamic_tf_broadcaster.cpp:16:124:[m[K [01;31m[Kerror: [m[K‘[01m[Kdo_posei[m[K’ is not a member of ‘[01m[KTFDynamicBroadcaster[m[K’
+   16 |             pose_sub_ = this->create_subscription<turtlesim::msg::Pose>("turtle1/pose",10,std::bind(&TFDynamicBroadcaster::[01;31m[Kdo_posei[m[K, this, std::placeholders::_1));
+      |                                                                                                                            [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo02_dynamic_tf_broadcaster.dir/build.make:76: CMakeFiles/demo02_dynamic_tf_broadcaster.dir/src/demo02_dynamic_tf_broadcaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_dynamic_tf_broadcaster.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

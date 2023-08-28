@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000097] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.000121] (-) JobUnselected: {'identifier': 'cpp02_rosbag'}
+[0.000140] (cpp03_tf_broadcaster) JobQueued: {'identifier': 'cpp03_tf_broadcaster', 'dependencies': OrderedDict()}
+[0.000159] (cpp03_tf_broadcaster) JobStarted: {'identifier': 'cpp03_tf_broadcaster'}
+[0.085561] (cpp03_tf_broadcaster) JobProgress: {'identifier': 'cpp03_tf_broadcaster', 'progress': 'cmake'}
+[0.099487] (-) TimerEvent: {}
+[0.123793] (cpp03_tf_broadcaster) JobProgress: {'identifier': 'cpp03_tf_broadcaster', 'progress': 'build'}
+[0.124535] (cpp03_tf_broadcaster) Command: {'cmd': ['/bin/cmake', '--build', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster', '--', '-j8', '-l8'], 'cwd': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster', 'env': OrderedDict([('USER', 'sophia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sophia'), ('OLDPWD', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/sophia/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1795'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'sophia'), ('_', '/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'sophia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/bin:/usr/bin:/usr/local/bin:/home/sophia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Lenovo:@/tmp/.ICE-unix/1772,unix/Lenovo:/tmp/.ICE-unix/1772'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f0bfbc6f_5fef_469f_9f88_a35dbfe1e366'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199657] (-) TimerEvent: {}
+[0.300243] (-) TimerEvent: {}
+[0.400829] (-) TimerEvent: {}
+[0.501462] (-) TimerEvent: {}
+[0.602056] (-) TimerEvent: {}
+[0.702641] (-) TimerEvent: {}
+[0.803189] (-) TimerEvent: {}
+[0.903752] (-) TimerEvent: {}
+[1.004463] (-) TimerEvent: {}
+[1.073558] (cpp03_tf_broadcaster) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo03_point_tf_broadcaster\x1b[0m\n'}
+[1.104651] (-) TimerEvent: {}
+[1.153420] (cpp03_tf_broadcaster) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo02_dynamic_tf_broadcaster\x1b[0m\n'}
+[1.204886] (-) TimerEvent: {}
+[1.305445] (-) TimerEvent: {}
+[1.406085] (-) TimerEvent: {}
+[1.409315] (cpp03_tf_broadcaster) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/demo03_point_tf_broadcaster.dir/src/demo03_point_tf_broadcaster.cpp.o\x1b[0m\n'}
+[1.506276] (-) TimerEvent: {}
+[1.542910] (cpp03_tf_broadcaster) StdoutLine: {'line': b'[ 83%] Built target demo01_static_tf_broadcaster\n'}
+[1.544040] (cpp03_tf_broadcaster) StdoutLine: {'line': b'[ 83%] Built target demo02_dynamic_tf_broadcaster\n'}
+[1.606511] (-) TimerEvent: {}
+[1.707139] (-) TimerEvent: {}
+[1.807771] (-) TimerEvent: {}
+[1.908389] (-) TimerEvent: {}
+[2.009223] (-) TimerEvent: {}
+[2.109830] (-) TimerEvent: {}
+[2.210394] (-) TimerEvent: {}
+[2.310974] (-) TimerEvent: {}
+[2.411531] (-) TimerEvent: {}
+[2.512132] (-) TimerEvent: {}
+[2.612727] (-) TimerEvent: {}
+[2.713322] (-) TimerEvent: {}
+[2.813907] (-) TimerEvent: {}
+[2.914496] (-) TimerEvent: {}
+[3.015112] (-) TimerEvent: {}
+[3.115734] (-) TimerEvent: {}
+[3.216313] (-) TimerEvent: {}
+[3.316895] (-) TimerEvent: {}
+[3.417489] (-) TimerEvent: {}
+[3.518071] (-) TimerEvent: {}
+[3.618641] (-) TimerEvent: {}
+[3.719254] (-) TimerEvent: {}
+[3.819777] (-) TimerEvent: {}
+[3.920397] (-) TimerEvent: {}
+[4.021038] (-) TimerEvent: {}
+[4.121704] (-) TimerEvent: {}
+[4.222324] (-) TimerEvent: {}
+[4.323288] (-) TimerEvent: {}
+[4.424002] (-) TimerEvent: {}
+[4.524760] (-) TimerEvent: {}
+[4.625417] (-) TimerEvent: {}
+[4.726063] (-) TimerEvent: {}
+[4.827022] (-) TimerEvent: {}
+[4.928760] (-) TimerEvent: {}
+[5.032842] (-) TimerEvent: {}
+[5.135422] (-) TimerEvent: {}
+[5.239711] (-) TimerEvent: {}
+[5.343664] (-) TimerEvent: {}
+[5.445548] (-) TimerEvent: {}
+[5.547245] (-) TimerEvent: {}
+[5.649331] (-) TimerEvent: {}
+[5.751548] (-) TimerEvent: {}
+[5.852293] (-) TimerEvent: {}
+[5.953017] (-) TimerEvent: {}
+[6.053472] (-) TimerEvent: {}
+[6.153824] (-) TimerEvent: {}
+[6.254448] (-) TimerEvent: {}
+[6.355038] (-) TimerEvent: {}
+[6.455365] (-) TimerEvent: {}
+[6.555700] (-) TimerEvent: {}
+[6.656049] (-) TimerEvent: {}
+[6.757053] (-) TimerEvent: {}
+[6.858580] (-) TimerEvent: {}
+[6.961766] (-) TimerEvent: {}
+[7.063724] (-) TimerEvent: {}
+[7.165347] (-) TimerEvent: {}
+[7.266718] (-) TimerEvent: {}
+[7.369095] (-) TimerEvent: {}
+[7.470445] (-) TimerEvent: {}
+[7.571318] (-) TimerEvent: {}
+[7.674032] (-) TimerEvent: {}
+[7.776896] (-) TimerEvent: {}
+[7.879766] (-) TimerEvent: {}
+[7.980774] (-) TimerEvent: {}
+[8.082346] (-) TimerEvent: {}
+[8.092636] (cpp03_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo03_point_tf_broadcaster.cpp:32:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPublicsher\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a template type; did you mean \xe2\x80\x98\x1b[01m\x1b[KPublisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.092794] (cpp03_tf_broadcaster) StderrLine: {'line': b'   32 |         rclcpp::\x1b[01;31m\x1b[KPublicsher\x1b[m\x1b[K<geometry_msgs::msg::PointStamped>::SharedPtr point_pub_;\n'}
+[8.092856] (cpp03_tf_broadcaster) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.092912] (cpp03_tf_broadcaster) StderrLine: {'line': b'      |                 \x1b[32m\x1b[KPublisher\x1b[m\x1b[K\n'}
+[8.124191] (cpp03_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo03_point_tf_broadcaster.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMiniPointNode::MiniPointNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.124330] (cpp03_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo03_point_tf_broadcaster.cpp:13:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpoint_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.124393] (cpp03_tf_broadcaster) StderrLine: {'line': b'   13 |             \x1b[01;31m\x1b[Kpoint_pub_\x1b[m\x1b[K = this->create_publisher<geometry_msgs::msg::PointStamped>("point",10);\n'}
+[8.124448] (cpp03_tf_broadcaster) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.141323] (cpp03_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo03_point_tf_broadcaster.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MiniPointNode::on_timer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.141464] (cpp03_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo03_point_tf_broadcaster.cpp:30:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpoint_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.141528] (cpp03_tf_broadcaster) StderrLine: {'line': b'   30 |             \x1b[01;31m\x1b[Kpoint_pub_\x1b[m\x1b[K->publish(ps);\n'}
+[8.141583] (cpp03_tf_broadcaster) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.182785] (-) TimerEvent: {}
+[8.283272] (-) TimerEvent: {}
+[8.383588] (-) TimerEvent: {}
+[8.483907] (-) TimerEvent: {}
+[8.584592] (-) TimerEvent: {}
+[8.684938] (-) TimerEvent: {}
+[8.785219] (-) TimerEvent: {}
+[8.844828] (cpp03_tf_broadcaster) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo03_point_tf_broadcaster.dir/build.make:76: CMakeFiles/demo03_point_tf_broadcaster.dir/src/demo03_point_tf_broadcaster.cpp.o] Error 1\n'}
+[8.845089] (cpp03_tf_broadcaster) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/demo03_point_tf_broadcaster.dir/all] Error 2\n'}
+[8.845319] (cpp03_tf_broadcaster) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.847060] (cpp03_tf_broadcaster) CommandEnded: {'returncode': 2}
+[8.885573] (-) TimerEvent: {}
+[8.987359] (-) TimerEvent: {}
+[9.088706] (-) TimerEvent: {}
+[9.138966] (cpp03_tf_broadcaster) JobEnded: {'identifier': 'cpp03_tf_broadcaster', 'rc': 2}
+[9.150314] (-) EventReactorShutdown: {}

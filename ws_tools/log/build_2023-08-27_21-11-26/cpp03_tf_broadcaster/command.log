@@ -1,0 +1,2 @@
+Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster -- -j8 -l8
+Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster -- -j8 -l8

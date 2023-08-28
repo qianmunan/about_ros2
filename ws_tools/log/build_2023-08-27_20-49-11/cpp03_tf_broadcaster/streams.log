@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster -- -j8 -l8
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target demo02_dynamic_tf_broadcaster[0m
+[0.065s] [ 50%] Built target demo01_static_tf_broadcaster
+[0.068s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_dynamic_tf_broadcaster.dir/src/demo02_dynamic_tf_broadcaster.cpp.o[0m
+[2.236s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo02_dynamic_tf_broadcaster.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.236s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo02_dynamic_tf_broadcaster.cpp:17:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(<unresolved overloaded function type>)[m[K’
+[2.237s]    17 |     [01;31m[Krclcpp::spin(std::make_shared<TFDynamicBroadcaster>)[m[K;
+[2.237s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.237s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.237s]                  from [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo02_dynamic_tf_broadcaster.cpp:1[m[K:
+[2.237s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[2.237s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[2.237s]       | [01;36m[K^~~~[m[K
+[2.237s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+[2.237s]    45 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[2.237s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.237s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[2.237s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[2.237s]       | [01;36m[K^~~~[m[K
+[2.237s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+[2.237s]    49 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[2.237s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.632s] gmake[2]: *** [CMakeFiles/demo02_dynamic_tf_broadcaster.dir/build.make:76: CMakeFiles/demo02_dynamic_tf_broadcaster.dir/src/demo02_dynamic_tf_broadcaster.cpp.o] Error 1
+[2.632s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_dynamic_tf_broadcaster.dir/all] Error 2
+[2.632s] gmake: *** [Makefile:146: all] Error 2
+[2.635s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster -- -j8 -l8

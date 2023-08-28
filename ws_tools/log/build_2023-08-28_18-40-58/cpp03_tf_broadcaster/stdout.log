@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target demo03_point_tf_broadcaster[0m
+[ 66%] Built target demo02_dynamic_tf_broadcaster
+[ 66%] Built target demo01_static_tf_broadcaster
+[ 83%] [32mBuilding CXX object CMakeFiles/demo03_point_tf_broadcaster.dir/src/demo03_point_tf_broadcaster.cpp.o[0m

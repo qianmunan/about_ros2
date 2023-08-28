@@ -1,0 +1,48 @@
+In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo02_dynamic_tf_broadcaster.cpp:1[m[K:
+/usr/include/c++/11/functional: In instantiation of ‘[01m[Kstruct std::_Bind_check_arity<void (TFDynamicBroadcaster::*)(const turtlesim::msg::Pose_<std::allocator<void> >&)>[m[K’:
+[01m[K/usr/include/c++/11/functional:768:12:[m[K   required from ‘[01m[Kstruct std::_Bind_helper<false, void (TFDynamicBroadcaster::*)(const turtlesim::msg::Pose_<std::allocator<void> >&)>[m[K’
+[01m[K/usr/include/c++/11/functional:789:5:[m[K   required by substitution of ‘[01m[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (TFDynamicBroadcaster::*)(const turtlesim::msg::Pose_<std::allocator<void> >&); _BoundArgs = {}][m[K’
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo02_dynamic_tf_broadcaster.cpp:16:102:[m[K   required from here
+[01m[K/usr/include/c++/11/functional:756:21:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Wrong number of arguments for pointer-to-member
+  755 |       static_assert(_Varargs::[01;31m[Kvalue[m[K
+      |                               [01;31m[K~~~~~[m[K
+  756 | [01;31m[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1[m[K
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  757 | [01;31m[K                    : sizeof...(_BoundArgs) == _Arity::value + 1[m[K,
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/functional:756:21:[m[K [01;36m[Knote: [m[K‘[01m[K(false ? (0 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (0 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))[m[K’ evaluates to false
+/usr/include/c++/11/functional: In substitution of ‘[01m[Ktemplate<class _Functor, class ... _Bound_args> template<class _Fn, class _CallArgs, class ... _BArgs> using _Res_type_impl = typename std::result_of<_Fn&(decltype (std::_Mu<typename std::remove_cv<_BArgs>::type, std::is_bind_expression<typename std::remove_cv<_BArgs>::type>::value, (std::is_placeholder<typename std::remove_cv<_BArgs>::type>::value > 0)>()(declval<_BArgs&>(), declval<_CallArgs&>()))&& ...)>::type [with _Fn = void (TFDynamicBroadcaster::*)(const turtlesim::msg::Pose_<std::allocator<void> >&); _CallArgs = _CallArgs; _BArgs = {}; _Functor = void (TFDynamicBroadcaster::*)(const turtlesim::msg::Pose_<std::allocator<void> >&); _Bound_args = {}][m[K’:
+[01m[K/usr/include/c++/11/functional:468:8:[m[K   required from ‘[01m[Kclass std::_Bind<void (TFDynamicBroadcaster::*())(const turtlesim::msg::Pose_<std::allocator<void> >&)>[m[K’
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo02_dynamic_tf_broadcaster.cpp:16:102:[m[K   required from here
+[01m[K/usr/include/c++/11/functional:464:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::result_of<void (TFDynamicBroadcaster::*&())(const turtlesim::msg::Pose_<std::allocator<void> >&)>[m[K’
+  464 |         using [01;31m[K_Res_type_impl[m[K
+      |               [01;31m[K^~~~~~~~~~~~~~[m[K
+/usr/include/c++/11/functional: In substitution of ‘[01m[Ktemplate<class _Functor, class ... _Bound_args> template<class _Fn, class _CallArgs, class ... _BArgs> using _Res_type_impl = typename std::result_of<_Fn&(decltype (std::_Mu<typename std::remove_cv<_BArgs>::type, std::is_bind_expression<typename std::remove_cv<_BArgs>::type>::value, (std::is_placeholder<typename std::remove_cv<_BArgs>::type>::value > 0)>()(declval<_BArgs&>(), declval<_CallArgs&>()))&& ...)>::type [with _Fn = void (TFDynamicBroadcaster::*)(const turtlesim::msg::Pose_<std::allocator<void> >&); _CallArgs = std::tuple<_Tps ...>; _BArgs = {}; _Functor = void (TFDynamicBroadcaster::*)(const turtlesim::msg::Pose_<std::allocator<void> >&); _Bound_args = {}][m[K’:
+[01m[K/usr/include/c++/11/functional:468:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _Functor, class ... _Bound_args> template<class _CallArgs> using _Res_type = std::_Bind<_Functor(_Bound_args ...)>::_Res_type_impl<_Functor, _CallArgs, _Bound_args ...> [with _CallArgs = std::tuple<_Tps ...>; _Functor = void (TFDynamicBroadcaster::*)(const turtlesim::msg::Pose_<std::allocator<void> >&); _Bound_args = {}][m[K’
+[01m[K/usr/include/c++/11/functional:501:2:[m[K   required from ‘[01m[Kclass std::_Bind<void (TFDynamicBroadcaster::*())(const turtlesim::msg::Pose_<std::allocator<void> >&)>[m[K’
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo02_dynamic_tf_broadcaster.cpp:16:102:[m[K   required from here
+[01m[K/usr/include/c++/11/functional:464:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::result_of<void (TFDynamicBroadcaster::*&())(const turtlesim::msg::Pose_<std::allocator<void> >&)>[m[K’
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo02_dynamic_tf_broadcaster.cpp:[m[K In constructor ‘[01m[KTFDynamicBroadcaster::TFDynamicBroadcaster()[m[K’:
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo02_dynamic_tf_broadcaster.cpp:16:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTFDynamicBroadcaster::create_subscription<turtlesim::msg::Pose>(const char [13], int, std::_Bind_helper<false, void (TFDynamicBroadcaster::*)(const turtlesim::msg::Pose_<std::allocator<void> >&)>::type, TFDynamicBroadcaster*, const std::_Placeholder<1>&)[m[K’
+   16 |             pose_sub_ = [01;31m[Kthis->create_subscription<turtlesim::msg::Pose>("turtle1/pose", 10, std::bind(&TFDynamicBroadcaster::do_pose), this, std::placeholders::_1)[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo02_dynamic_tf_broadcaster.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo02_dynamic_tf_broadcaster.cpp:16:72:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>[m[K’ and ‘[01m[KTFDynamicBroadcaster*[m[K’
+   16 |             pose_sub_ = [01;36m[Kthis->create_subscription<turtlesim::msg::Pose>("turtle1/pose", 10, std::bind(&TFDynamicBroadcaster::do_pose), this, std::placeholders::_1)[m[K;
+      |                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo02_dynamic_tf_broadcaster.dir/build.make:76: CMakeFiles/demo02_dynamic_tf_broadcaster.dir/src/demo02_dynamic_tf_broadcaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_dynamic_tf_broadcaster.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

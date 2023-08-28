@@ -1,0 +1,21 @@
+[0.010s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster -- -j8 -l8
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target demo03_point_tf_broadcaster[0m
+[0.059s] [ 66%] Built target demo02_dynamic_tf_broadcaster
+[0.059s] [ 66%] Built target demo01_static_tf_broadcaster
+[0.064s] [ 83%] [32mBuilding CXX object CMakeFiles/demo03_point_tf_broadcaster.dir/src/demo03_point_tf_broadcaster.cpp.o[0m
+[2.039s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo03_point_tf_broadcaster.cpp:32:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPublicshared[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type; did you mean ‘[01m[KPublisher[m[K’?
+[2.039s]    32 |         rclcpp::[01;31m[KPublicshared[m[K<geometry_msgs::msg::PointStamped>::SharedPtr point_pub_;
+[2.039s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[2.039s]       |                 [32m[KPublisher[m[K
+[2.045s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo03_point_tf_broadcaster.cpp:[m[K In constructor ‘[01m[KMiniPointNode::MiniPointNode()[m[K’:
+[2.045s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo03_point_tf_broadcaster.cpp:13:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_pub_[m[K’ was not declared in this scope
+[2.045s]    13 |             [01;31m[Kpoint_pub_[m[K = this->create_publisher<geometry_msgs::msg::PointStamped>("point",10);
+[2.045s]       |             [01;31m[K^~~~~~~~~~[m[K
+[2.062s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo03_point_tf_broadcaster.cpp:[m[K In member function ‘[01m[Kvoid MiniPointNode::on_timer()[m[K’:
+[2.062s] [01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp03_tf_broadcaster/src/demo03_point_tf_broadcaster.cpp:30:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_pub_[m[K’ was not declared in this scope
+[2.062s]    30 |             [01;31m[Kpoint_pub_[m[K->publish(ps);
+[2.062s]       |             [01;31m[K^~~~~~~~~~[m[K
+[2.635s] gmake[2]: *** [CMakeFiles/demo03_point_tf_broadcaster.dir/build.make:76: CMakeFiles/demo03_point_tf_broadcaster.dir/src/demo03_point_tf_broadcaster.cpp.o] Error 1
+[2.635s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/demo03_point_tf_broadcaster.dir/all] Error 2
+[2.635s] gmake: *** [Makefile:146: all] Error 2
+[2.638s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp03_tf_broadcaster -- -j8 -l8
