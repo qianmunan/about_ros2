@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000094] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.000117] (-) JobUnselected: {'identifier': 'cpp02_rosbag'}
+[0.000135] (-) JobUnselected: {'identifier': 'cpp03_tf_broadcaster'}
+[0.000151] (cpp04_tf_listener) JobQueued: {'identifier': 'cpp04_tf_listener', 'dependencies': OrderedDict()}
+[0.000167] (cpp04_tf_listener) JobStarted: {'identifier': 'cpp04_tf_listener'}
+[0.010451] (cpp04_tf_listener) JobProgress: {'identifier': 'cpp04_tf_listener', 'progress': 'cmake'}
+[0.011120] (cpp04_tf_listener) JobProgress: {'identifier': 'cpp04_tf_listener', 'progress': 'build'}
+[0.011850] (cpp04_tf_listener) Command: {'cmd': ['/bin/cmake', '--build', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener', '--', '-j8', '-l8'], 'cwd': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener', 'env': OrderedDict([('USER', 'sophia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sophia'), ('OLDPWD', '/home/sophia/workspace/about_ros/code/about_ros2'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/sophia/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1795'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/install:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'sophia'), ('_', '/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'sophia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/bin:/usr/bin:/usr/local/bin:/home/sophia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Lenovo:@/tmp/.ICE-unix/1772,unix/Lenovo:/tmp/.ICE-unix/1772'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f0bfbc6f_5fef_469f_9f88_a35dbfe1e366'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/install/cpp04_tf_listener:/home/sophia/workspace/about_ros/code/about_ros2/install/cpp02_rosbag:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp03_tf_broadcaster:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/install/cpp04_tf_listener:/home/sophia/workspace/about_ros/code/about_ros2/install/cpp02_rosbag:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp03_tf_broadcaster:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch:/opt/ros/humble')]), 'shell': False}
+[0.036435] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099326] (-) TimerEvent: {}
+[0.168014] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199408] (-) TimerEvent: {}
+[0.218646] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.221080] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.227034] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.237490] (cpp04_tf_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.252833] (cpp04_tf_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299518] (-) TimerEvent: {}
+[0.308202] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.309567] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399639] (-) TimerEvent: {}
+[0.419022] (cpp04_tf_listener) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499767] (-) TimerEvent: {}
+[0.574326] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found tf2: 0.25.3 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.599870] (-) TimerEvent: {}
+[0.627800] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.699999] (-) TimerEvent: {}
+[0.800270] (-) TimerEvent: {}
+[0.900566] (-) TimerEvent: {}
+[0.952239] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.000695] (-) TimerEvent: {}
+[1.027373] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.027714] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp04_tf_listener/include>\n'}
+[1.027840] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.028466] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.029353] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.029441] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.029645] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.030318] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.044098] (cpp04_tf_listener) StdoutLine: {'line': b'-- Generating done\n'}
+[1.046711] (cpp04_tf_listener) StdoutLine: {'line': b'-- Build files have been written to: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener\n'}
+[1.070494] (cpp04_tf_listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_tf_listener\x1b[0m\n'}
+[1.079591] (cpp04_tf_listener) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo02_msg_filter.dir/src/demo02_msg_filter.cpp.o\x1b[0m\n'}
+[1.087024] (cpp04_tf_listener) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o\x1b[0m\n'}
+[1.100814] (-) TimerEvent: {}
+[1.201092] (-) TimerEvent: {}
+[1.301360] (-) TimerEvent: {}
+[1.401621] (-) TimerEvent: {}
+[1.501891] (-) TimerEvent: {}
+[1.602210] (-) TimerEvent: {}
+[1.702587] (-) TimerEvent: {}
+[1.802859] (-) TimerEvent: {}
+[1.903119] (-) TimerEvent: {}
+[2.003393] (-) TimerEvent: {}
+[2.103664] (-) TimerEvent: {}
+[2.203942] (-) TimerEvent: {}
+[2.304206] (-) TimerEvent: {}
+[2.404491] (-) TimerEvent: {}
+[2.504827] (-) TimerEvent: {}
+[2.605129] (-) TimerEvent: {}
+[2.705453] (-) TimerEvent: {}
+[2.805728] (-) TimerEvent: {}
+[2.906041] (-) TimerEvent: {}
+[3.006609] (-) TimerEvent: {}
+[3.107001] (-) TimerEvent: {}
+[3.207293] (-) TimerEvent: {}
+[3.307573] (-) TimerEvent: {}
+[3.407860] (-) TimerEvent: {}
+[3.508146] (-) TimerEvent: {}
+[3.608425] (-) TimerEvent: {}
+[3.690598] (cpp04_tf_listener) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo02_msg_filter\x1b[0m\n'}
+[3.708554] (-) TimerEvent: {}
+[3.808927] (-) TimerEvent: {}
+[3.814475] (cpp04_tf_listener) StdoutLine: {'line': b'[ 75%] Built target demo02_msg_filter\n'}
+[3.909008] (-) TimerEvent: {}
+[4.009266] (-) TimerEvent: {}
+[4.109539] (-) TimerEvent: {}
+[4.209838] (-) TimerEvent: {}
+[4.310135] (-) TimerEvent: {}
+[4.410391] (-) TimerEvent: {}
+[4.510648] (-) TimerEvent: {}
+[4.610871] (-) TimerEvent: {}
+[4.711145] (-) TimerEvent: {}
+[4.811451] (-) TimerEvent: {}
+[4.911676] (-) TimerEvent: {}
+[5.011936] (-) TimerEvent: {}
+[5.112171] (-) TimerEvent: {}
+[5.212437] (-) TimerEvent: {}
+[5.312719] (-) TimerEvent: {}
+[5.412971] (-) TimerEvent: {}
+[5.513227] (-) TimerEvent: {}
+[5.613488] (-) TimerEvent: {}
+[5.713873] (-) TimerEvent: {}
+[5.814131] (-) TimerEvent: {}
+[5.914400] (-) TimerEvent: {}
+[6.014618] (-) TimerEvent: {}
+[6.114881] (-) TimerEvent: {}
+[6.215152] (-) TimerEvent: {}
+[6.315408] (-) TimerEvent: {}
+[6.415659] (-) TimerEvent: {}
+[6.515912] (-) TimerEvent: {}
+[6.616176] (-) TimerEvent: {}
+[6.716390] (-) TimerEvent: {}
+[6.816647] (-) TimerEvent: {}
+[6.916865] (-) TimerEvent: {}
+[7.017111] (-) TimerEvent: {}
+[7.117389] (-) TimerEvent: {}
+[7.217659] (-) TimerEvent: {}
+[7.317927] (-) TimerEvent: {}
+[7.418178] (-) TimerEvent: {}
+[7.518431] (-) TimerEvent: {}
+[7.618685] (-) TimerEvent: {}
+[7.718937] (-) TimerEvent: {}
+[7.819186] (-) TimerEvent: {}
+[7.919408] (-) TimerEvent: {}
+[8.019649] (-) TimerEvent: {}
+[8.119917] (-) TimerEvent: {}
+[8.220302] (-) TimerEvent: {}
+[8.320895] (-) TimerEvent: {}
+[8.421391] (-) TimerEvent: {}
+[8.521615] (-) TimerEvent: {}
+[8.621856] (-) TimerEvent: {}
+[8.722176] (-) TimerEvent: {}
+[8.822449] (-) TimerEvent: {}
+[8.891062] (cpp04_tf_listener) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo01_tf_listener\x1b[0m\n'}
+[8.922552] (-) TimerEvent: {}
+[9.022888] (-) TimerEvent: {}
+[9.123149] (-) TimerEvent: {}
+[9.223413] (-) TimerEvent: {}
+[9.275737] (cpp04_tf_listener) StdoutLine: {'line': b'[100%] Built target demo01_tf_listener\n'}
+[9.286426] (cpp04_tf_listener) CommandEnded: {'returncode': 0}
+[9.311494] (cpp04_tf_listener) JobProgress: {'identifier': 'cpp04_tf_listener', 'progress': 'install'}
+[9.319550] (cpp04_tf_listener) Command: {'cmd': ['/bin/cmake', '--install', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener'], 'cwd': '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener', 'env': OrderedDict([('USER', 'sophia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sophia'), ('OLDPWD', '/home/sophia/workspace/about_ros/code/about_ros2'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/sophia/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1795'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/install:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'sophia'), ('_', '/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'sophia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/bin:/usr/bin:/usr/local/bin:/home/sophia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Lenovo:@/tmp/.ICE-unix/1772,unix/Lenovo:/tmp/.ICE-unix/1772'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f0bfbc6f_5fef_469f_9f88_a35dbfe1e366'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/install/cpp04_tf_listener:/home/sophia/workspace/about_ros/code/about_ros2/install/cpp02_rosbag:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp03_tf_broadcaster:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp04_tf_listener'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sophia/workspace/about_ros/code/about_ros2/install/cpp04_tf_listener:/home/sophia/workspace/about_ros/code/about_ros2/install/cpp02_rosbag:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp03_tf_broadcaster:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch:/opt/ros/humble')]), 'shell': False}
+[9.323519] (-) TimerEvent: {}
+[9.326221] (cpp04_tf_listener) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.326450] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener\n'}
+[9.330727] (cpp04_tf_listener) StdoutLine: {'line': b'-- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener" to ""\n'}
+[9.330978] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_msg_filter\n'}
+[9.331376] (cpp04_tf_listener) StdoutLine: {'line': b'-- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_msg_filter" to ""\n'}
+[9.331580] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp04_tf_listener\n'}
+[9.331764] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp04_tf_listener\n'}
+[9.331885] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.sh\n'}
+[9.332045] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.dsv\n'}
+[9.332150] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.sh\n'}
+[9.332288] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.dsv\n'}
+[9.332401] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.bash\n'}
+[9.332491] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.sh\n'}
+[9.332603] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.zsh\n'}
+[9.332706] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.dsv\n'}
+[9.332832] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv\n'}
+[9.332934] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/ament_index/resource_index/packages/cpp04_tf_listener\n'}
+[9.333022] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig.cmake\n'}
+[9.333111] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig-version.cmake\n'}
+[9.333199] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.xml\n'}
+[9.334435] (cpp04_tf_listener) CommandEnded: {'returncode': 0}
+[9.384378] (cpp04_tf_listener) JobEnded: {'identifier': 'cpp04_tf_listener', 'rc': 0}
+[9.384919] (-) EventReactorShutdown: {}
