@@ -1,0 +1,56 @@
+[0.050s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp01_launch -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch
+[0.137s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.327s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.372s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.376s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.386s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.404s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.430s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.538s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.539s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.716s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.998s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.068s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.069s] -- Added test 'lint_cmake' to check CMake code style
+[1.069s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.071s] -- Added test 'xmllint' to check XML markup files
+[1.074s] -- Configuring done
+[1.154s] -- Generating done
+[1.156s] [33mCMake Warning:
+[1.156s]   Manually-specified variables were not used by the project:
+[1.156s] 
+[1.156s]     CMAKE_EXPORT_COMPILE_COMMANDS
+[1.156s] 
+[1.156s] [0m
+[1.156s] -- Build files have been written to: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch
+[1.166s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp01_launch -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch
+[1.168s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch -- -j8 -l8
+[1.219s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch -- -j8 -l8
+[1.244s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch
+[1.251s] -- Install configuration: ""
+[1.251s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/launch
+[1.251s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/launch/py01_helloworld_launch.py
+[1.251s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/launch/py04_args_launch.py
+[1.251s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/launch/py03_cmd_launch.py
+[1.251s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/launch/py02_node_launch.py
+[1.252s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/launch/py06_group_launch.py
+[1.252s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/launch/py07_event_launch.py
+[1.252s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/launch/py05_include_launch.py
+[1.252s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/config
+[1.252s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/config/haha.yaml
+[1.252s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/ament_index/resource_index/package_run_dependencies/cpp01_launch
+[1.252s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/ament_index/resource_index/parent_prefix_path/cpp01_launch
+[1.252s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.sh
+[1.253s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.dsv
+[1.253s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/environment/path.sh
+[1.253s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/environment/path.dsv
+[1.253s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/local_setup.bash
+[1.253s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/local_setup.sh
+[1.253s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/local_setup.zsh
+[1.255s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/local_setup.dsv
+[1.255s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/package.dsv
+[1.255s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/ament_index/resource_index/packages/cpp01_launch
+[1.256s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig.cmake
+[1.256s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig-version.cmake
+[1.256s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp01_launch/share/cpp01_launch/package.xml
+[1.256s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp01_launch

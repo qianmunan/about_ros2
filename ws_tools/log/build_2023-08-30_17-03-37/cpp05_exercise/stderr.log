@@ -1,0 +1,8 @@
+[01m[K/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp05_exercise/src/exer01_tf_spawn.cpp:9:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+    9 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/exer01_tf_spawn.dir/build.make:76: CMakeFiles/exer01_tf_spawn.dir/src/exer01_tf_spawn.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/exer01_tf_spawn.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

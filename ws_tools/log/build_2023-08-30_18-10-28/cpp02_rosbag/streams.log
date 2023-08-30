@@ -1,0 +1,51 @@
+[0.080s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag
+[0.139s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.346s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.386s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.388s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.396s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.407s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.422s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.484s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.485s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.606s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.788s] -- Found rosbag2_cpp: 0.15.7 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[0.927s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.992s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.104s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.104s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag/include>
+[1.104s] -- Configured cppcheck exclude dirs and/or files: 
+[1.105s] -- Added test 'lint_cmake' to check CMake code style
+[1.106s] -- Added test 'uncrustify' to check C / C++ code style
+[1.106s] -- Configured uncrustify additional arguments: 
+[1.107s] -- Added test 'xmllint' to check XML markup files
+[1.113s] -- Configuring done
+[1.196s] -- Generating done
+[1.199s] -- Build files have been written to: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag
+[1.209s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/src/cpp02_rosbag -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag
+[1.211s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag -- -j8 -l8
+[1.251s] [35m[1mConsolidate compiler generated dependencies of target demo01_writer[0m
+[1.251s] [35m[1mConsolidate compiler generated dependencies of target demo02_reader[0m
+[1.270s] [ 75%] Built target demo01_writer
+[1.270s] [100%] Built target demo02_reader
+[1.281s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag -- -j8 -l8
+[1.316s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag
+[1.323s] -- Install configuration: ""
+[1.323s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer
+[1.324s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader
+[1.324s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp02_rosbag
+[1.324s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp02_rosbag
+[1.324s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.sh
+[1.324s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.dsv
+[1.324s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.sh
+[1.325s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.dsv
+[1.325s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.bash
+[1.325s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.sh
+[1.325s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.zsh
+[1.325s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.dsv
+[1.325s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.dsv
+[1.326s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/ament_index/resource_index/packages/cpp02_rosbag
+[1.326s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig.cmake
+[1.326s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig-version.cmake
+[1.326s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.xml
+[1.328s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp02_rosbag

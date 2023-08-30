@@ -1,0 +1,31 @@
+[0.013s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp05_exercise -- -j8 -l8
+[0.065s] [ 83%] [32mBuilding CXX object CMakeFiles/exer02_tf_broadcaster.dir/src/exer02_tf_broadcaster.cpp.o[0m
+[0.065s] [ 83%] Built target exer01_tf_spawn
+[0.065s] [ 83%] Built target exer03_tf_listener
+[8.838s] [100%] [32m[1mLinking CXX executable exer02_tf_broadcaster[0m
+[10.463s] [100%] Built target exer02_tf_broadcaster
+[10.476s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp05_exercise -- -j8 -l8
+[10.514s] Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp05_exercise
+[10.521s] -- Install configuration: ""
+[10.521s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/lib/cpp05_exercise/exer01_tf_spawn
+[10.545s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/lib/cpp05_exercise/exer02_tf_broadcaster
+[10.550s] -- Set runtime path of "/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/lib/cpp05_exercise/exer02_tf_broadcaster" to ""
+[10.550s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/lib/cpp05_exercise/exer03_tf_listener
+[10.550s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/cpp05_exercise/launch
+[10.551s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/cpp05_exercise/launch/follow_launch.py
+[10.551s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/ament_index/resource_index/package_run_dependencies/cpp05_exercise
+[10.551s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/ament_index/resource_index/parent_prefix_path/cpp05_exercise
+[10.551s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.sh
+[10.551s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.dsv
+[10.551s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/cpp05_exercise/environment/path.sh
+[10.551s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/cpp05_exercise/environment/path.dsv
+[10.552s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.bash
+[10.552s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.sh
+[10.552s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.zsh
+[10.552s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.dsv
+[10.552s] -- Installing: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/cpp05_exercise/package.dsv
+[10.552s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/ament_index/resource_index/packages/cpp05_exercise
+[10.552s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig.cmake
+[10.564s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig-version.cmake
+[10.564s] -- Up-to-date: /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/install/cpp05_exercise/share/cpp05_exercise/package.xml
+[10.567s] Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp05_exercise

@@ -1,0 +1,4 @@
+Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp05_exercise': /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp05_exercise -- -j8 -l8
+Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp05_exercise' returned '0': /bin/cmake --build /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp05_exercise -- -j8 -l8
+Invoking command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp05_exercise': /bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp05_exercise
+Invoked command in '/home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp05_exercise' returned '0': /bin/cmake --install /home/sophia/workspace/about_ros/code/about_ros2/ws_tools/build/cpp05_exercise
